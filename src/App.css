@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -31,7 +31,7 @@
 }
 
 main {
-  background-color: blue;
+  background-image: 'C:/Users/minut/Documents/Projects/backvid.mp4';
   min-width: 750px;
 }
 
@@ -52,4 +52,12 @@ main {
   position: absolute;
   margin-top: 150px;
   margin-left: 80px;
+}
+
+.backvideo {
+  position: absolute;
+  height: 150%;
+  float: left;
+  z-index: -1;
+  object-fit: fill;
 }
