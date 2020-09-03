@@ -36,7 +36,7 @@ main {
 }
 
 .mainbox {
-  background-color: blueviolet;
+  background-color: midnightblue;
   width: 78%;
   margin: auto;
   display: flex;
@@ -47,11 +47,12 @@ main {
   width: 250px;
   height: 300px;
   align-items: left;
-  border: solid 10px;
-  border-color: cyan;
+  border: solid 4px;
+  border-color: rgb(214, 22, 198);
   position: absolute;
-  margin-top: 200px;
+  margin-top: 260px;
   margin-left: 80px;
+  z-index: 1;
 }
 
 .backvideo {
@@ -60,4 +61,11 @@ main {
   float: left;
   z-index: -1;
   object-fit: fill;
+}
+
+.sun {
+  width: 250px;
+  position: absolute;
+  margin-top: 71px;
+  z-index: 0;
 }
