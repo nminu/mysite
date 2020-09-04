@@ -11,7 +11,8 @@ function App() {
     <body className="App">
       <div className='imgbox'>
           <img src={selfpic} alt='yeet' width='100%'/>
-        </div>
+          <p>Nicholas Minutillo</p>
+      </div>
       <header className="App-header">
         <img src={backdrop2} alt='pic' width='100%' height ='350px'/>
         <img src={sun2} alt='pic' className='sun'/>
@@ -23,7 +24,7 @@ function App() {
         <section className = 'mainbox'>
           <img src={test} alt='back' width='100%'/>
           <p>
-            yeet
+            yeetsadfgasdgafdgdsgfdasgadgdsfgdfsgsgsdfgdsg
           </p>
         </section>
       </main>
