@@ -1,6 +1,6 @@
 .imgbox {
     width: 250px;
-    height: 300px;
+    height: 400px;
     align-items: left;
     border: solid 4px;
     border-color: rgb(214, 22, 198);
@@ -8,4 +8,5 @@
     margin-top: 280px;
     margin-left: 80px;
     z-index: 1;
+    background-color: rgb(45,43,114);;
   }
