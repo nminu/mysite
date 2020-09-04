@@ -23,9 +23,15 @@ function App() {
       <main>
         <section className = 'mainbox'>
           <img src={test} alt='back' width='100%'/>
-          <p>
-            yeetsadfgasdgafdgdsgfdasgadgdsfgdfsgsgsdfgdsg
-          </p>
+          <article>
+            <h1>Welcome</h1>
+            <p>
+              I'm Nick Minutillo, I'm a mostly self-taught web developer always seeking to advance my knowlege and skills. 
+              <br />
+              <br />
+              I made this funky site mostly for fun, but also to showcase some of my skills, work and projects.
+            </p>
+          </article>
         </section>
       </main>
     </body>

@@ -46,7 +46,10 @@ main {
   justify-content: center;
 }
 
-.mainbox p {
+.mainbox article {
+  width: 400px;
+  margin-top: 10px;
+  text-align: center;
   position: absolute;
   font-size: large;
   border: solid 5px;
