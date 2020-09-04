@@ -1,0 +1,11 @@
+.imgbox {
+    width: 250px;
+    height: 300px;
+    align-items: left;
+    border: solid 4px;
+    border-color: rgb(214, 22, 198);
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 80px;
+    z-index: 1;
+  }

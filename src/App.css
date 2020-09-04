@@ -55,18 +55,6 @@ main {
   border: solid 5px;
 }
 
-.imgbox {
-  width: 250px;
-  height: 300px;
-  align-items: left;
-  border: solid 4px;
-  border-color: rgb(214, 22, 198);
-  position: absolute;
-  margin-top: 260px;
-  margin-left: 80px;
-  z-index: 1;
-}
-
 .backvideo {
   position: absolute;
   height: 150%;
