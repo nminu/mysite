@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <body className="Appbody" style = {{ backgroundImage: `url(${require("../../resources/test.png")})` }} >
+    <body className="Appbody" style = {{ backgroundImage: `url(${require("../../resources/background.png")})` }} >
       <FaceBox />
       <header className="App-header">
         <img src={backdrop2} alt='pic' width='100%' height ='350px'/>
