@@ -17,7 +17,7 @@ function App() {
         <img src={sun2} alt='pic' className='sun'/>
       </header>
       <main>
-        <section className = 'mainbox'>
+        <section className = 'introbox'>
           <article>
             <h1>Welcome</h1>
             <p>
@@ -27,6 +27,8 @@ function App() {
               I made this funky site mostly for fun, but also to showcase some of my skills, work and projects.
             </p>
           </article>
+        </section>
+        <section className ='otherboxes'>
           <Slider />
         </section>
       </main>

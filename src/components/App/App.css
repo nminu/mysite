@@ -1,6 +1,12 @@
+.App {
+  scroll-behavior: smooth;
+
+}
+
 .Appbody {
 background-position-y: 350px;
 background-repeat: no-repeat;
+background-color: rgb(32,26,86);
 }
 
 .backgroundImage {
@@ -39,16 +45,16 @@ main {
   min-width: 750px;
 }
 
-.mainbox {
+.introbox {
   width: 78%;
   margin: auto;
   display: flex;
-  height: 1000px;
+  height: 400px;
   z-index: -1;
   justify-content: center;
 }
 
-.mainbox article {
+.introbox article {
   width: 400px;
   margin-top: 10px;
   text-align: center;
