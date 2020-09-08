@@ -1,5 +1,10 @@
-.App {
+.Appbody {
+background-position-y: 350px;
+background-repeat: no-repeat;
+}
 
+.backgroundImage {
+  margin-top: 500px;
 }
 
 .App-logo {
@@ -31,18 +36,15 @@
 }
 
 main {
-  background-image: 'C:/Users/minut/Documents/Projects/backvid.mp4';
   min-width: 750px;
 }
 
 .mainbox {
-  background-color: midnightblue;
   width: 78%;
   margin: auto;
   display: flex;
   height: 1000px;
   z-index: -1;
-  border: solid 4px;
   justify-content: center;
 }
 

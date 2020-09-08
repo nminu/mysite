@@ -1,6 +1,6 @@
 import React from 'react';
 import './facebox.css'
-import selfpic from './resources/selfpic.png';
+import selfpic from '../../resources/selfpic.png';
 
 class FaceBox extends React.Component {
     render () {
