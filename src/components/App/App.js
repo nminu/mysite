@@ -21,10 +21,8 @@ function App() {
           <article>
             <h1>Welcome</h1>
             <p>
-              I'm Nick Minutillo, I'm a mostly self-taught web developer always seeking to advance my knowlege and skills. 
+              I'm Nick Minutillo, I'm a mostly self-taught junior web developer. Please check out my site and feel free to contact me with any comments or questions.
               <br />
-              <br />
-              I made this funky site mostly for fun, but also to showcase some of my skills, work and projects.
             </p>
           </article>
         </section>

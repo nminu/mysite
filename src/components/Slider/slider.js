@@ -10,7 +10,7 @@ class Slider extends React.Component {
                 <section class="boxes">
                     <article class="cbp-so-side cbp-so-side-left">
                         <h2>Lemon drops</h2>
-                        <p>Fruitcake toffee jujubes. Topping biscuit sesame snaps jelly caramels jujubes tiramisu fruitcake. Marzipan tart lemon drops chocolate sesame snaps jelly beans.</p>
+                        <p>I am a junior web developer and I love trying out and learning new things. This site is largely an experiment and a work in progress.</p>
                     </article>
                     <img src={tree} alt="img01" width='400px'/>
                 </section>

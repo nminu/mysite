@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'broadwayregular';
+  src: url('../../resources/broadwayfont/ufonts.com_broadway-webfont.woff2') format('woff2'),
+       url('../../resources/broadwayfont/ufonts.com_broadway-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .App {
   scroll-behavior: smooth;
 
@@ -5,6 +14,7 @@
 
 .Appbody {
 background-position-y: 350px;
+background-position-x: center;
 background-repeat: no-repeat;
 background-color: rgb(32,26,86);
 }
@@ -42,12 +52,12 @@ background-color: rgb(32,26,86);
 }
 
 main {
-  min-width: 750px;
+  width: 100%;
 }
 
 .introbox {
-  width: 78%;
-  margin: auto;
+  margin-top: 50px;
+  margin-left: 350px;
   display: flex;
   height: 400px;
   z-index: -1;
@@ -55,12 +65,25 @@ main {
 }
 
 .introbox article {
-  width: 400px;
-  margin-top: 10px;
+  justify-content: center;
+}
+
+.introbox h1 {
+  margin: auto;
+  margin-right:10px;
   text-align: center;
-  position: absolute;
-  font-size: large;
-  border: solid 5px;
+  font-size: 10vw;
+  font-family: 'broadwayregular';
+  color: lightblue;
+  overflow: hidden;
+}
+
+.introbox p {
+  color: lightblue;
+  margin:auto;
+  text-align: center;
+  margin-top: 30px;
+  padding: 0px 50px;
 }
 
 .backvideo {
