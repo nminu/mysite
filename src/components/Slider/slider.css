@@ -16,24 +16,32 @@
 
 button {
     position: absolute;
-    right: 200px;
     z-index: 1;
     margin-top: 400px;
     margin-left: 5px;
-    background-color: blue;
+    background-color: rgb(79, 26, 223);
+    border: solid 2px rgb(27,182,225);
+    border-radius: 2px;
+    height: 12px;
+    width: 10px;
+}
+
+button:active {
+    background-color: violet;
     border: solid 2px red;
-    height: 15px;
-    width: 15px;
 }
 
 #go1 {
     transform: translateX(0);
+    right: 210px;
 }
 
 #go2 {
     transform: translateX(100%);
+    right: 200px;
 }
 
 #go3 {
     transform: translateX(200%);
+    right: 190px;
 }
