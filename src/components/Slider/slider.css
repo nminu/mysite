@@ -24,6 +24,10 @@ button {
     width: 10px;
 }
 
+button:focus {
+    outline: none;
+}
+
 .inactive {
     background-color: rgb(79, 26, 223);
     border: solid 1px rgb(27,182,225);
