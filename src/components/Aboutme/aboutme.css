@@ -31,6 +31,7 @@ span {
     animation-name: test;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    position: absolute;
 }
 
 .box {
