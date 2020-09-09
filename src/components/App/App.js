@@ -3,10 +3,11 @@ import backdrop2 from '../../resources/backdrop2.png';
 import sun2 from '../../resources/sun2.png';
 import background from '../../resources/background.png'
 import FaceBox from '../Facebox/facebox';
-import Aboutme from '../Slider/aboutme'
+import Aboutme from '../Aboutme/aboutme'
 import test from '../../resources/test.png';
 import backvid from '../../resources/backvid.mp4';
 import trees from '../../resources/treecar.png'
+import Slider from '../Slider/slider';
 import './App.css';
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         </section>
         <img src={trees} alt='tree' className='tree' />
         <section className ='otherboxes'>
-          <Aboutme />
+          <Slider />
         </section>
       </main>
     </body>

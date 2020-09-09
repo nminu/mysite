@@ -87,12 +87,9 @@ main {
   font-size: 24px;
 }
 
-.backvideo {
-  position: absolute;
-  height: 150%;
-  float: left;
-  z-index: -1;
-  object-fit: fill;
+.otherboxes {
+  height: 800px;
+  margin-top: 200px;
 }
 
 .sun {
@@ -103,7 +100,7 @@ main {
 }
 
 .tree {
-  width: 100vw;
+  width: 100%;
   margin: auto;
   margin-top: 0px;
 }
