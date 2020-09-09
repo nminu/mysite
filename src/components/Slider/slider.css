@@ -16,19 +16,24 @@
 
 button {
     position: absolute;
-    right:200px;
+    right: 200px;
     z-index: 1;
     margin-top: 400px;
+    margin-left: 5px;
+    background-color: blue;
+    border: solid 2px red;
+    height: 15px;
+    width: 15px;
 }
 
 #go1 {
-    transform: translateX(0)
+    transform: translateX(0);
 }
 
 #go2 {
-    transform: translateX(100%)
+    transform: translateX(100%);
 }
 
 #go3 {
-    transform: translateX(200%)
+    transform: translateX(200%);
 }

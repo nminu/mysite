@@ -17,9 +17,9 @@ function Slider() {
     return (
         <div className='slider'>
 
-            <button id="go1" onClick={go1}>1</button>
-            <button id="go2" onClick={go2}>2</button>
-            <button id="go3" onClick={go3}>3</button>
+            <button id="go1" onClick={go1}></button>
+            <button id="go2" onClick={go2}></button>
+            <button id="go3" onClick={go3}></button>
 
             {sliderArr.map((item,index) => {
                 return (
