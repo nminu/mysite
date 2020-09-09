@@ -74,16 +74,17 @@ main {
   text-align: center;
   font-size: 10vw;
   font-family: 'broadwayregular';
-  color: lightblue;
+  color: rgb(27,182,225);
   overflow: hidden;
 }
 
 .introbox p {
-  color: lightblue;
+  color: rgb(27,182,225);
   margin:auto;
   text-align: center;
   margin-top: 30px;
   padding: 0px 50px;
+  font-size: 24px;
 }
 
 .backvideo {
@@ -99,4 +100,10 @@ main {
   position: absolute;
   margin-top: 71px;
   z-index: 0;
+}
+
+.tree {
+  width: 100vw;
+  margin: auto;
+  margin-top: 0px;
 }
