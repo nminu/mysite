@@ -9,17 +9,9 @@ class Projects extends React.Component {
     render () {
         return (
             <div className='projbox'>
-            <Bounce right>
+            <Bounce left>
             <img src={projectimg} alt="img01" width='600px' className='projimg'/>
             </Bounce>
-                <Fade bottom>
-                <section className='proj'>
-                    <h2 className='projtitle'>Upcomming</h2>
-                    <p>
-                    This spot is for a project I am currently working on that will be finished soon. Check back soon if you like dice games ;)
-                    </p>
-                </section>
-                </Fade>
                 <Fade bottom>
                 <section className='proj'>
                     <h2 className='projtitle'>RetroSite</h2>
@@ -27,6 +19,15 @@ class Projects extends React.Component {
                     This portfolio site has been my first major solo project. It was built using React.js. 
                     All the graphics were made by me in Photoshop. 
                     I plan on adding more functionality and interactivity.   
+                    </p>
+                </section>
+                </Fade>
+                <Fade bottom>
+                <section className='proj'>
+                    <h2 className='projtitle'>Upcomming</h2>
+                    <p>
+                    This spot is for a project I am currently working on that will be finished soon. 
+                    Check back soon if you like dice games ;)
                     </p>
                 </section>
                 </Fade>
