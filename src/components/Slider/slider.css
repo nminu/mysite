@@ -41,14 +41,17 @@ button:focus {
 #go1 {
     transform: translateX(0);
     right: 210px;
+    cursor: pointer;
 }
 
 #go2 {
     transform: translateX(100%);
     right: 200px;
+    cursor: pointer;
 }
 
 #go3 {
     transform: translateX(200%);
     right: 190px;
+    cursor: pointer;
 }
