@@ -24,7 +24,7 @@ class Projects extends React.Component {
                 </Fade>
                 <Fade bottom>
                 <section className='proj'>
-                    <h2 className='projtitle'>Upcomming</h2>
+                    <h2 className='projtitle'>Upcoming</h2>
                     <p>
                     This spot is for a project I am currently working on that will be finished soon. 
                     Check back soon if you like dice games ;)
