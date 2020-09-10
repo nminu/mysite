@@ -1,14 +1,9 @@
 import React from 'react';
 import backdrop2 from '../../resources/backdrop2.png';
 import sun2 from '../../resources/sun2.png';
-import background from '../../resources/background.png'
 import FaceBox from '../Facebox/facebox';
-import Aboutme from '../Aboutme/aboutme'
-import test from '../../resources/test.png';
-import backvid from '../../resources/backvid.mp4';
 import trees from '../../resources/treecar.png'
 import Slider from '../Slider/slider';
-import Projects from '../Projects/projects';
 import './App.css';
 
 function App() {
