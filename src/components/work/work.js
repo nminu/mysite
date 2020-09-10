@@ -1,7 +1,7 @@
 import React from 'react';
 import './work.css';
 import workimg from '../../resources/workimg.png';
-import Flip from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 
 
@@ -10,9 +10,9 @@ class Work extends React.Component {
     render () {
         return (
             <div className='workbox'>
-            <Flip left>
+            <Zoom left>
             <img src={workimg} alt="img01" width='600px' className='workimg'/>
-            </Flip>
+            </Zoom>
             <Fade bottom>
                 <section className='work'>
                     <h2 className='worktitle'>ToolTensils</h2>
@@ -20,7 +20,7 @@ class Work extends React.Component {
                     I developed and manage an ecommerce site for a small business with a cool product. Click the image to check out the site! 
                     </p>
                 </section>
-                <embed src='https://tooltensils.com/' className='embedsite'></embed>
+                <a href='https://tooltensils.com/'><iframe src='https://tooltensils.com/' title='Tooltensils' className='embedsite'></iframe></a>
             </Fade>
             </div>
         );

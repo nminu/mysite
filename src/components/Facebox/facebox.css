@@ -11,4 +11,11 @@
     margin-left: 80px;
     z-index: 1;
     background-color: rgb(41, 33, 114);
+    font-family: 'nunito';
+    color: rgb(27,182,225);
+    padding: 10px;
   }
+
+.imgbox:hover {
+  box-shadow: 0px 0px 20px 2px rgb(214,42,124);
+}

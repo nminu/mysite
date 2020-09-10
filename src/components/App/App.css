@@ -7,13 +7,22 @@
 }
 
 @font-face {
-  font-family: 'montserrat';
-  src: url('../../resources/montserrat/montserratalternates-regular1-webfont.woff2') format('woff2'),
-       url('../../resources/montserrat/montserratalternates-regular1-webfont.woff') format('woff');
+  font-family: 'neon';
+  src: url('../../resources/neon/neon1-webfont.woff2') format('woff2'),
+       url('../../resources/neon/neon1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nunito';
+  src: url('../../resources/nunito/nunito-regular1-webfont.woff2') format('woff2'),
+       url('../../resources/nunito/nunito-regular1-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
 }
+
 .App {
   scroll-behavior: smooth;
 }
@@ -23,7 +32,6 @@ background-position-y: 350px;
 background-position-x: center;
 background-repeat: no-repeat;
 background-color: rgb(32,26,86);
-font-family: 'montserrat';
 }
 
 .backgroundImage {
@@ -60,11 +68,16 @@ font-family: 'montserrat';
 
 main {
   width: 100%;
+  font-family: 'nunito';
+}
+
+h2 {
+  font-family: 'neon';
 }
 
 .introbox {
   margin-top: 50px;
-  margin-left: 350px;
+  margin-left: 150px;
   display: flex;
   height: 400px;
   z-index: -1;
@@ -76,8 +89,9 @@ main {
 }
 
 .introbox h1 {
-  margin: auto;
-  margin-right:10px;
+  margin-left: 150px;
+  width: 100%;
+  height: 200px;
   text-align: center;
   font-size: 10vw;
   font-family: 'broadwayregular';
@@ -108,7 +122,7 @@ main {
 }
 
 .otherboxes {
-  height: 800px;
+  height: 450px;
   margin-top: 100px;
 }
 
