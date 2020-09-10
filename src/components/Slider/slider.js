@@ -1,9 +1,10 @@
 import React,{useState} from 'react';
 import Aboutme from '../Aboutme/aboutme'
+import Projects from '../Projects/projects'
 import './slider.css'
 
 function Slider() {
-    let sliderArr = [<Aboutme />,<Aboutme />,<Aboutme />];
+    let sliderArr = [<Aboutme />,<Projects />,<Aboutme />];
     const [y, setY] = useState(0)
     const go1=() => {
         setY(0);

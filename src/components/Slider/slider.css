@@ -1,6 +1,6 @@
 .slider {
     width: 100%;
-    height: 400px;
+    height: 500px;
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -9,7 +9,7 @@
 
 .slide {
     width: 100%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
     transition: .5s;
 }

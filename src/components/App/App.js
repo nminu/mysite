@@ -8,6 +8,7 @@ import test from '../../resources/test.png';
 import backvid from '../../resources/backvid.mp4';
 import trees from '../../resources/treecar.png'
 import Slider from '../Slider/slider';
+import Projects from '../Projects/projects';
 import './App.css';
 
 function App() {

@@ -9,7 +9,7 @@ class Aboutme extends React.Component {
         return (
             <div className='maindiv'>
                 <section class="box">
-                <img src={aboutme} alt="img01" width='400px' className='amimg'/>
+                    <img src={aboutme} alt="img01" width='450px' className='amimg'/>
                     <Fade bottom>
                         <p className='text'>I'm<span> Nick Minutillo</span>, a web developer based out of <span>Austin, TX</span>.
                             After living in Florida for most of my life I attended Penn State University and earned my engineering degree.
