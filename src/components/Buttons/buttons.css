@@ -7,7 +7,6 @@
 .btnholder {
     width: 100%;
     height: 500px;
-    margin:0;
     display: inline-block;
 }
 
@@ -31,7 +30,7 @@
     transform:translate(-220%,-200%);
 }
 
-.proj {
+.project {
     width: 200px;
     height: 250px;
     float: left;
@@ -141,6 +140,13 @@ input:focus {
     animation-iteration-count: infinite;
 }
 
+#proj:hover {
+    animation-name: shine;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+
 @keyframes flicker {
     0% {opacity: 100%;}
     10%{opacity: 40%;}
@@ -150,4 +156,26 @@ input:focus {
     50%{opacity: 100%;}
     60%{opacity: 100%;}
     100%{opacity: 100%;}
+}
+
+@keyframes shine {
+    from {
+        background-repeat:no-repeat;
+        background-image:-webkit-linear-gradient(
+            top left,
+            rgba(255, 255, 255, 0.0) 0%,
+            rgba(255, 255, 255, 0.0) 45%,
+            rgba(255, 255, 255, 0.5) 48%,
+            rgba(255, 255, 255, 0.8) 50%,
+            rgba(255, 255, 255, 0.5) 52%,
+            rgba(255, 255, 255, 0.0) 57%,
+            rgba(255, 255, 255, 0.0) 100%
+        );
+        background-position:-250px -250px;
+        background-size: 600px 600px
+    }
+    to {
+        background-repeat:no-repeat;
+        background-position:250px 250px;
+    }
 }

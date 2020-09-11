@@ -38,12 +38,12 @@ function Buttons () {
         if (projop === '0') {
             aboutelem.style="opacity:0%;transform:translateY(150%);transition:transform 1s 2s opacity 0.8s 0s"
             workelem.style="opacity:0%;transform:translateY(300%);"
-            projelem.style="width:40%;transform:translateX(-70%);transition-delay:0.6s"
+            projelem.style="width:40%;transform:translateX(-45%);transition-delay:0.6s"
             projtxtelem.style="opacity:100%;transform:translate(80%, -310%);"
         } else if (projop === "1")  {
             projelem.style="opacity:100%;transform:translateX(0%);transition: transform 0.8s 1.25s, width 0.8s 1.25s"
             workelem.style="opacity:100%;transform:translateY(0%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
-            aboutelem.style="width:25%;transform:translateX(10%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
+            aboutelem.style="transform:translateX(10%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
             projtxtelem.style="opacity:0%;transform:translateX(-240%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
         }
     }
@@ -85,7 +85,7 @@ function Buttons () {
             </p>
         </div>
         <div id='projtxt' className='projbox'>
-            <section className='proj'>
+            <section className='project'>
                 <h2 className='projtitle'>RetroSite</h2>
                 <p>
                     This portfolio site has been my first major solo project. It was built using React.js. 
@@ -93,7 +93,7 @@ function Buttons () {
                     I plan on adding more functionality and interactivity.   
                 </p>
             </section>
-            <section className='proj'>
+            <section className='project'>
                 <h2 className='projtitle'>Upcoming</h2>
                 <p>
                     This spot is for a project I am currently working on that will be finished soon. 
