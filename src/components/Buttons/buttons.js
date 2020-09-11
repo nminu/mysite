@@ -41,7 +41,7 @@ function Buttons () {
             projelem.style="width:40%;transform:translateX(-70%);transition-delay:0.6s"
             projtxtelem.style="opacity:100%;transform:translate(80%, -310%);"
         } else if (projop === "1")  {
-            projelem.style="opacity:100%;transform:translateY(0%);transition-delay:1s"
+            projelem.style="opacity:100%;transform:translateX(0%);transition: transform 0.8s 1.25s, width 0.8s 1.25s"
             workelem.style="opacity:100%;transform:translateY(0%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
             aboutelem.style="width:25%;transform:translateX(10%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
             projtxtelem.style="opacity:0%;transform:translateX(-240%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
