@@ -5,6 +5,7 @@ import FaceBox from '../Facebox/facebox';
 import trees from '../../resources/treecar.png'
 import Slider from '../Slider/slider';
 import './App.css';
+import Buttons from '../Buttons/buttons';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 
         <img src={trees} alt='tree' className='tree' />
 
+      <Buttons />
       </main>
     </body>
   );
