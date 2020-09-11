@@ -59,12 +59,12 @@ function Buttons () {
             aboutelem.style="opacity:0%;transform:translateY(180%);"
             projelem.style="opacity:0%;transform:translateY(250%);"
             workelem.style="width:30%;transform:translate(-32%, 10%);"
-            worktxtelem.style="opacity:100%;transform:translate(-20%, -270%);"
+            worktxtelem.style="opacity:100%;transform:translate(-50%, -270%);"
         } else if (workop === "1")  {
             workelem.style="opacity:100%;transform:translateY(0%);transition-delay:1s"
             projelem.style="opacity:100%;transform:translateY(0%); transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
             aboutelem.style="transform:translateX(10%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
-            worktxtelem.style="opacity:0%;transform:translate(55%, -250%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
+            worktxtelem.style="opacity:0%;transform:translate(200%, -250%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
         }
     }
     
@@ -108,7 +108,6 @@ function Buttons () {
                     I developed and currently manage a WordPress ecommerce site for a small business with a cool product. Click the image to check out the site! 
                     </p>
             </section>
-            <a href='https://tooltensils.com/'><iframe src='https://tooltensils.com/' title='Tooltensils' className='embedsite'></iframe></a>
         </div>
     </div>
     );
