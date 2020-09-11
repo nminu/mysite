@@ -21,12 +21,9 @@ function App() {
         </section>
 
         <section className ='otherboxes'>
-          <Slider />
+        <Buttons />
         </section>
-
         <img src={trees} alt='tree' className='tree' />
-
-      <Buttons />
       </main>
     </body>
   );

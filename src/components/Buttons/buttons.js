@@ -17,12 +17,12 @@ function Buttons () {
         if (abtop === '0') {
             projelem.style="opacity:0%;transform:translateY(250%);"
             workelem.style="opacity:0%;transform:translateY(300%);"
-            aboutelem.style="width:30%;transform:translateX(10%);transition-delay:0.6s"
+            aboutelem.style="width:25%;transform:translateX(10%);transition-delay:0.6s"
             abtxtelem.style="opacity:100%;transform:translateX(240%);"
         } else if (abtop === "1")  {
             projelem.style="opacity:100%;transform:translateY(0%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
             workelem.style="opacity:100%;transform:translateY(0%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
-            aboutelem.style="width:25%;transform:translateX(10%);transition-delay:1s"
+            aboutelem.style="width:20%;transform:translateX(10%);transition-delay:1s"
             abtxtelem.style="opacity:0%;transform:translateX(-240%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
         }
 
@@ -59,12 +59,12 @@ function Buttons () {
             aboutelem.style="opacity:0%;transform:translateY(180%);"
             projelem.style="opacity:0%;transform:translateY(250%);"
             workelem.style="width:30%;transform:translate(-32%, 10%);"
-            worktxtelem.style="opacity:100%;transform:translate(-25%, -270%);"
+            worktxtelem.style="opacity:100%;transform:translate(-20%, -270%);"
         } else if (workop === "1")  {
             workelem.style="opacity:100%;transform:translateY(0%);transition-delay:1s"
             projelem.style="opacity:100%;transform:translateY(0%); transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
             aboutelem.style="transform:translateX(10%);transition: transform 0.8s 1.25s, opacity 0.7s 1.5s;"
-            worktxtelem.style="opacity:0%;transform:translate(50%, -250%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
+            worktxtelem.style="opacity:0%;transform:translate(55%, -250%);transition: transform 1.5s 0.25s, opacity 0.5s 0s;"
         }
     }
     
