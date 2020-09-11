@@ -2,6 +2,7 @@
     border: 2px solid green;
     width:100%;
     height:500px;
+    overflow: hidden;
 }
 
 .btnholder {
@@ -26,6 +27,27 @@
     opacity: 0%;
 }
 
+.projbox {
+    height: 200px;
+    width: 60%;
+    margin-top:20px;
+    transform:translate(-220%,-200%);
+}
+
+#projtxt {
+    transition: transform 0.8s 1.25s, opacity 0.7s 1.7s;
+    opacity: 0%;
+}
+
+.workbox {
+    transform:translate(50%,-250%);
+}
+
+#worktxt {
+    transition: transform 0.8s 1.25s, opacity 0.7s 1.7s;
+    opacity: 0%;
+}
+
 .abouttext {
     text-align: center;
     border: 2px solid rgb(27,182,225);
@@ -41,24 +63,25 @@
 
 #about {
     width:25%;
-    margin-top:10px;
-    transition: .5s;
+    margin-top:20px;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s 0.5s;
     z-index: 1;
 }
 #proj {
-    margin-top:50px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s;
+    margin-top:80px;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s;
 }
 #work {
-    margin-top: 100px;
+    margin-top: 120px;
     width: 25%;
-    transition: transform 0.5s 1s, opacity 0.5s 0s;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s 1s;
+    position: absolute;
 }
 input {
     float:left;
     z-index: 100;
     width: 33%;
-    margin-left:50px;
+    margin-left:70px;
 }
 
 input:focus {
