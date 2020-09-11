@@ -1,6 +1,6 @@
 import React from 'react';
 import './projects.css';
-import projectimg from '../../resources/projectsimg.png';
+import projectimg from '../../resources/projectsimgT.png';
 import Bounce from 'react-reveal/Bounce';
 import Fade from 'react-reveal/Fade';
 

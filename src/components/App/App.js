@@ -18,10 +18,12 @@ function App() {
         <section className = 'introbox'>
         <h1>WELCOME</h1>
         </section>
-        <img src={trees} alt='tree' className='tree' />
+
         <section className ='otherboxes'>
           <Slider />
         </section>
+
+        <img src={trees} alt='tree' className='tree' />
 
       </main>
     </body>

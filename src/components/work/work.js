@@ -11,13 +11,13 @@ class Work extends React.Component {
         return (
             <div className='workbox'>
             <Zoom left>
-            <img src={workimg} alt="img01" width='600px' className='workimg'/>
+            <img src={workimg} alt="img01" width='400px' className='workimg'/>
             </Zoom>
             <Fade bottom>
                 <section className='work'>
                     <h2 className='worktitle'>ToolTensils</h2>
                     <p>
-                    I developed and manage an ecommerce site for a small business with a cool product. Click the image to check out the site! 
+                    I developed and currently manage a WordPress ecommerce site for a small business with a cool product. Click the image to check out the site! 
                     </p>
                 </section>
                 <a href='https://tooltensils.com/'><iframe src='https://tooltensils.com/' title='Tooltensils' className='embedsite'></iframe></a>
