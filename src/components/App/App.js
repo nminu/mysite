@@ -30,15 +30,15 @@ function App() {
         </section>
 
         <section className ='otherboxes'>
-        <Buttons />
+
         </section>
 
       </main>
 
       <footer>
-        <h1>Contact Me</h1>
+
       </footer>
-      
+
     </body>
   );
 }
