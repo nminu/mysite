@@ -23,6 +23,15 @@
 
 }
 
+@font-face {
+  font-family: 'streamsterregular';
+  src: url('../../resources/streamster/streamster1-webfont.woff2') format('woff2'),
+       url('../../resources/streamster/streamster1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .App {
   scroll-behavior: smooth;
 }
@@ -60,7 +69,6 @@ height: 3000px;
 
 main {
   width: 100%;
-  font-family: 'nunito';
 }
 
 h2 {
@@ -68,134 +76,59 @@ h2 {
 }
 
 .introbox {
-  margin-top: 50px;
-  margin-left: 150px;
-  display: flex;
-  height: 350px;
-  z-index: -1;
-  justify-content: center;
+  margin: auto;
+  margin-top: 350px;
+  width: 600px;
+  height: 240px;
+  font-family: 'neon';
+  text-align: center;
+  box-shadow: 0px 0px 80px 25px #18142a;
+  background-color:rgb(24,20,42, 0.7);
+  border-radius: 100px / 50px;
+}
+
+.introbox h1 {
+  font-size: 100px;
+  font-family: 'streamster';
+  margin-bottom: -40px;
+  background:linear-gradient(180deg, rgba(252,176,42,1) 30%, rgba(235,13,140,1) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.introbox p {
+  margin-top: 0;
+  color: #f03c70;
+  font-size: 24px;
 }
 
 .introbox article {
   justify-content: center;
 }
 
-footer h1 {
-  margin-top: 50px;
-  padding: 50px;
-  text-align: center;
-  font-size: 3vw;
-  font-family: 'neon';
-  color: rgb(27,182,225);
-  overflow: hidden;
-  letter-spacing: 2;
-  color: #ffe6ff;
-  text-shadow: 
-  5px 5px 0 #542776,
-  10px 10px 0 #e63b95,
-  15px 15px 0 rgb(27,182,225),
-  20px 20px 0 #f06286,
-  25px 25px 0 #f5af6c,
-  0 0 1.5rem #ff65bd,
--0.2rem 0.1rem 1rem #ff65bd, 
-0.2rem 0.1rem 1rem #ff65bd,
-0 -0.5rem 2rem #ff2483, 
-0 0.5rem 3rem #ff2483;
-
-}
-
-footer h1:hover {
-  animation-name: trip;
-  animation-duration: 0.6s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes trip {
-  20%{text-shadow:  
-    5px 5px 0 #f5af6c,
-    10px 10px 0 #542776,
-    15px 15px 0 #e63b95,
-    20px 20px 0 rgb(27,182,225),
-    25px 25px 0 #f06286,
-    
-    0 0 1.5rem #ff65bd,
-    -0.2rem 0.1rem 1rem #ff65bd, 
-    0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #ff2483, 
-    0 0.5rem 3rem #ff2483;}
-  40%{text-shadow:  
-    5px 5px 0 #f06286,
-    10px 10px 0 #f5af6c,
-    15px 15px 0 #542776,
-    20px 20px 0 #e63b95,
-    25px 25px 0 rgb(27,182,225),    
-
-    0 0 1.5rem #ff65bd,
-    -0.2rem 0.1rem 1rem #ff65bd, 
-    0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #ff2483, 
-    0 0.5rem 3rem #ff2483;}
-  60%{text-shadow:  
-    5px 5px 0 rgb(27,182,225),
-    10px 10px 0 #f06286,
-    15px 15px 0 #f5af6c,
-    20px 20px 0 #542776,
-    25px 25px 0 #e63b95,    
-
-    0 0 1.5rem #ff65bd,
-    -0.2rem 0.1rem 1rem #ff65bd, 
-    0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #ff2483, 
-    0 0.5rem 3rem #ff2483;}
-  80%{text-shadow:  
-    5px 5px 0 #e63b95,
-    10px 10px 0 rgb(27,182,225),
-    15px 15px 0 #f06286,
-    20px 20px 0 #f5af6c,
-    25px 25px 0 #542776,   
-
-    0 0 1.5rem #ff65bd,
-    -0.2rem 0.1rem 1rem #ff65bd, 
-    0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #ff2483, 
-    0 0.5rem 3rem #ff2483;}
-  100%{text-shadow: 
-     5px 5px 0 #542776,
-    10px 10px 0 #e63b95,
-    15px 15px 0 rgb(27,182,225),
-    20px 20px 0 #f06286,
-    25px 25px 0 #f5af6c,    
-    0 0 1.5rem #ff65bd,
-
-    -0.2rem 0.1rem 1rem #ff65bd, 
-    0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #ff2483, 
-    0 0.5rem 3rem #ff2483;}
-}
-
-.introbox p {
-  color: rgb(27,182,225);
-  margin:auto;
-  text-align: center;
-  margin-top: 30px;
-  padding: 0px 50px;
-  font-size: 24px;
+.gradient {
+  background:linear-gradient(180deg, rgba(252,176,42,1) 30%, rgba(235,13,140,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .otherboxes {
   height: 450px;
-  margin-top: 150px;
-}
-
-.sun {
-  width: 250px;
   position: absolute;
-  margin-top: 71px;
-  z-index: 0;
+  top: 1700px;
+  width: 90%;
 }
 
-.tree {
+.pinkline {
+  position: absolute;
+  opacity: 50%;
   width: 100%;
-  margin: auto;
-  margin-top: 10px;
+  bottom: -498px;
+  overflow: hidden;
+}
+
+.trees {
+  position: relative;
+  width: 100%;
+  margin-top: 1700px;
 }
