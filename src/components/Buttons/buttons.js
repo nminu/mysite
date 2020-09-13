@@ -38,7 +38,7 @@ function Buttons () {
         if (projop === '0') {
             aboutelem.style="opacity:0%;transform:translateY(150%);transition:transform 1s 2s opacity 0.8s 0s"
             workelem.style="opacity:0%;transform:translateY(300%);"
-            projelem.style="width:40%;transform:translateX(-45%);transition-delay:0.6s"
+            projelem.style="width:39%;transform:translateX(-60%);transition-delay:0.6s"
             projtxtelem.style="opacity:100%;transform:translate(80%, -310%);"
         } else if (projop === "1")  {
             projelem.style="opacity:100%;transform:translateX(0%);transition: transform 0.8s 1.25s, width 0.8s 1.25s"
@@ -78,7 +78,7 @@ function Buttons () {
         <div className='abtbox'>
             <p id='abtxt' className='abouttext'>
                 I'm<span> Nick Minutillo</span>, a web developer based out of <span>Austin, TX</span>.
-                After living in Florida for most of my life I attended Penn State University and earned my engineering degree.
+                After living in south Florida for most of my life I attended Penn State University and earned my engineering degree.
                 I enjoy coding, creating graphics in Photoshop, playing video games, and watching hockey (<span>LGR</span>).
                 This site was made mostly for fun but also to showcase a few of my skills. 
                 Feel free to contact me at (email) or by using the form below.

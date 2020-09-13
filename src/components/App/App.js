@@ -25,6 +25,9 @@ function App() {
         </section>
         <img src={trees} alt='tree' className='tree' />
       </main>
+      <footer>
+        <h1>Contact Me</h1>
+      </footer>
     </body>
   );
 }
