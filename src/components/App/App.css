@@ -88,12 +88,8 @@ h2 {
 }
 
 .introbox h1 {
-  font-size: 100px;
   font-family: 'streamster';
-  margin-bottom: -85px;
-  background:linear-gradient(180deg, rgba(252,176,42,1) 30%, rgba(235,13,140,1) 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  margin-bottom: -45px;
 }
 
 .introbox p {
@@ -131,4 +127,26 @@ h2 {
   position: relative;
   width: 100%;
   margin-top: 1700px;
+}
+
+#welcome path:nth-child(1) {
+  
+}
+#welcome path:nth-child(2) {
+  
+}
+#welcome path:nth-child(3) {
+  
+}
+#welcome path:nth-child(4) {
+  
+}
+#welcome path:nth-child(5) {
+  
+}
+#welcome path:nth-child(6) {
+  
+}
+#welcome path:nth-child(7) {
+  
 }
