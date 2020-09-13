@@ -28,10 +28,11 @@
 }
 
 .Appbody {
-background-position-y: 350px;
+background-position-y: -150px;
 background-position-x: center;
 background-repeat: no-repeat;
 background-color: rgb(32,26,86);
+height: 3000px;
 }
 
 .backgroundImage {

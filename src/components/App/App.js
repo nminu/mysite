@@ -9,25 +9,36 @@ import Buttons from '../Buttons/buttons';
 
 function App() {
   return (
-    <body className="Appbody" style = {{ backgroundImage: `url(${require("../../resources/background.png")})` }} >
+    <body className="Appbody" style = {{ backgroundImage: `url(${require("../../resources/mountainsungood.png")})` }} >
+
       <FaceBox />
+
       <header className="App-header">
-        <img src={backdrop2} alt='pic' width='100%' height ='350px'/>
-        <img src={sun2} alt='pic' className='sun'/>
+
       </header>
+
       <main>
+
         <section className = 'introbox'>
-        <h1>WELCOME</h1>
+          <h1>WELCOME</h1>
+          <p>
+            I'm Nick Minutillo <br />
+            Click below to read about me <br />
+           Also check out some of my latest projects <br />
+            Get in touch by email, or by using the form below
+          </p>
         </section>
 
         <section className ='otherboxes'>
         <Buttons />
         </section>
-        <img src={trees} alt='tree' className='tree' />
+
       </main>
+
       <footer>
         <h1>Contact Me</h1>
       </footer>
+      
     </body>
   );
 }
