@@ -9,31 +9,60 @@ function Nbuttons () {
         element1.style="display:none;"
         element2.style="display:none;"
     }
+    function displayall (element1, element2) {
+        element1.style="display:initial;"
+        element2.style="display:initial;"
+    }
     const about = () => {
         const aboutcontent = document.getElementById('aboutcont');
         const projectimg = document.getElementById('projectimg');
         const aboutimgholder = document.getElementById('aboutimgholder');
         const contactimg = document.getElementById('contactimg');
-        const aboutimg = document.getElementById('aboutimg')
+        const aboutimg = document.getElementById('aboutimg');
 
-        projectimg.style="opacity:0%;"
-        contactimg.style="opacity:0%;"
-        aboutimg.style='width:100%'
-        aboutimgholder.style='transform:translateX(33vw);'
-        setTimeout(displaynone, 600, projectimg, contactimg);
-        aboutcontent.style="transform:translateY(0%);"
+        var abtop = window.getComputedStyle(aboutcontent).getPropertyValue("opacity");
+
+        if (abtop === '0') {
+            projectimg.style="opacity:0%;"
+            contactimg.style="opacity:0%;"
+            aboutimg.style='width:100%'
+            aboutimgholder.style='transform:translateX(33vw);'
+            setTimeout(displaynone, 600, projectimg, contactimg);
+            aboutcontent.style="transform:translateY(0%); opacity: 100%;"
+        } else if (abtop === '1') {
+            projectimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
+            contactimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
+            aboutimg.style='width:80%;transition: width 0.5s 0.5s;'
+            setTimeout(displayall, 1200, projectimg, contactimg);
+            aboutimgholder.style='transform:translateX(0vw);transition: transform 0.5s 0.5s;'
+            aboutcontent.style="transform:translateY(100%); opacity: 0%; transition: transform 1s 0s, opacity 0.5s 0s;"
+        }
+
+
     }
     const proj = () => {
-        const projectcontent = document.getElementById('projcont');
+        const projectcontent = document.getElementById('projectcont');
         const projectimg = document.getElementById('projectimg');
         const aboutimg = document.getElementById('aboutimg');
         const contactimg = document.getElementById('contactimg');
 
-        contactimg.style="opacity:0%;"
-        aboutimg.style='opacity:0%;'
-        projectimg.style='width:100%'
-        setTimeout(displaynone, 600, aboutimg, contactimg);
-        projectcontent.style="transform:translateY(-100%);"
+        var projop = window.getComputedStyle(projectcontent).getPropertyValue("opacity");
+
+        if (projop === '0') {
+            contactimg.style="opacity:0%;"
+            aboutimg.style='opacity:0%;'
+            projectimg.style='width:100%'
+            setTimeout(displaynone, 600, aboutimg, contactimg);
+            projectcontent.style="transform:translateY(-100%); opacity: 100%; transition: transform 0.7s 1.5s"
+        } else if (projop === '1') {
+            contactimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
+            aboutimg.style='opacity:0%;transition: opacity 0.7s 1.5s;'
+            projectimg.style='width:80%;transition: width 0.5s 0.5s;'
+            setTimeout(displayall, 1200, aboutimg, contactimg);
+            projectcontent.style="transform:translateY(100%); opacity: 0%; transition: transform 1s 0s, opacity 0.5s 0s;"
+        }
+
+
     }
     const contact = () => {
         const contactcontent = document.getElementById('contactcont');
@@ -42,12 +71,25 @@ function Nbuttons () {
         const contactimg = document.getElementById('contactimg');
         const contactimgholder = document.getElementById('contactimgholder');
 
-        aboutimg.style="opacity:0%;"
-        projectimg.style="opacity:0%;"
-        contactimg.style='width:100%'
-        contactimgholder.style='transform:translateX(-33vw);'
-        setTimeout(displaynone, 600, aboutimg, projectimg);
-        contactcontent.style="transform:translateY(-200%);"
+        var contactop = window.getComputedStyle(contactcontent).getPropertyValue("opacity");
+
+        if (contactop === '0') {
+            aboutimg.style="opacity:0%;"
+            projectimg.style="opacity:0%;"
+            contactimg.style='width:100%'
+            contactimgholder.style='transform:translateX(-33vw);'
+            setTimeout(displaynone, 600, aboutimg, projectimg);
+            contactcontent.style="transform:translateY(-200%);opacity: 100%; transition: transform 0.7s 1.5s"
+        } else if (contactop === '1') {
+            aboutimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
+            projectimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
+            contactimg.style='width:80%;transition: width 0.5s 0.5s;'
+            contactimgholder.style='transform:translateX(0vw);transition: transform 0.5s 0.5s;'
+            setTimeout(displayall, 1200, aboutimg, projectimg);
+            contactcontent.style="transform:translateY(100%);opacity: 0%; transition: transform 1s 0s, opacity 0.5s 0s;"
+        }
+
+
     }
     
     return (
@@ -68,7 +110,7 @@ function Nbuttons () {
 
         </div>
 
-        <div id='projcont' className='content'>
+        <div id='projectcont' className='content'>
 
         </div>
 

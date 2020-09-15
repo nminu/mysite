@@ -40,17 +40,21 @@ input:focus {
 }
 #aboutimg {
     max-width:600px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.8s 1s;
+    transition: transform 0.5s 0.8s, opacity 0.5s 0s, width 0.8s 1s;
 }
 #projectimg {
     max-width: 600px;
     margin-top: 50px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.8s 1s;
+    transition: transform 0.5s 0.8s, opacity 0.5s 0s, width 0.8s 0.6s;
 }
 #contactimg {
     margin-top: 80px;
     max-width: 600px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.8s 1s;
+    transition: transform 0.5s 0.8s, opacity 0.5s 0s, width 0.8s 1s;
+}
+
+#aboutcont, #projectcont, #contactcont {
+    opacity: 0%;
 }
 
 .content {
