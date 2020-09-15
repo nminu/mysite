@@ -40,7 +40,8 @@
 background-position-y: -150px;
 background-position-x: center;
 background-repeat: no-repeat;
-background-color: rgb(32,26,86);
+background-size: fill, ;
+background-image: url(../../resources/mountainsungood.png), linear-gradient(180deg, rgb(27, 26, 74) 0%, rgba(53,30,92,1) 21%, rgb(27, 21, 46) 30%, rgb(24, 20, 37) 70%);
 height: 3000px;
 }
 
@@ -85,6 +86,7 @@ h2 {
   box-shadow: 0px 0px 80px 25px #18142a;
   background-color:rgb(24,20,42, 0.7);
   border-radius: 100px / 50px;
+  z-index: 2;
 }
 
 .introbox h1 {

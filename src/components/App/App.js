@@ -3,6 +3,7 @@ import backdrop2 from '../../resources/backdrop2.png';
 import sun2 from '../../resources/sun2.png';
 import FaceBox from '../Facebox/facebox';
 import trees from '../../resources/treebottom.png'
+import mountainsun from '../../resources/mountainsungood.png'
 import pink from '../../resources/linetest2.png'
 import Slider from '../Slider/slider';
 import './App.css';
@@ -10,8 +11,7 @@ import Buttons from '../Buttons/buttons';
 
 function App() {
   return (
-    <body className="Appbody" style = {{ backgroundImage: `url(${require("../../resources/mountainsungood.png")})` }} >
-
+    <body className="Appbody">
       <FaceBox />
 
       <header className="App-header">
