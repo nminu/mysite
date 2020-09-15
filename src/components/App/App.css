@@ -83,15 +83,13 @@ h2 {
   height: 240px;
   font-family: 'neon';
   text-align: center;
-  box-shadow: 0px 0px 80px 25px #18142a;
+  box-shadow: 0px 0px 80px 23px #18142a;
   background-color:rgb(24,20,42, 0.7);
   border-radius: 100px / 50px;
-  z-index: 2;
 }
 
 .introbox h1 {
-  font-family: 'streamster';
-  margin-bottom: -45px;
+  margin-bottom: -40px;
 }
 
 .introbox p {
