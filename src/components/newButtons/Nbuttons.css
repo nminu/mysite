@@ -4,7 +4,6 @@
     text-align: center;
     width: 100%;
     max-width: 1920px;
-
 }
 
 .btnholder {
@@ -17,8 +16,8 @@
     width: 33.1%;
     height: 250px;
     min-width: 400px;
-    float: left;
     border: 1px solid rgb(158, 32, 32);
+    float: left;
 }
 
 input {
@@ -28,15 +27,31 @@ input {
 input:focus {
     outline: none;
 }
+#aboutimgcont {
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s 0.5s;
 
-#aboutimg {
-    max-width:300px;
 }
-#projimg {
+#projectimgcont {
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0s 0.6s;
+
+}
+#contactimgcont {
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 1s 0.6s;
+
+}
+#aboutimg {
+    max-width:350px;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s 0.5s;
+}
+#projectimg {
+    max-width: 600px;
     margin-top: 50px;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.6s 0s;
 }
 #contactimg {
     margin-top: 80px;
+    max-width: 600px;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.6s 0s;
 }
 
 .content {
@@ -45,4 +60,5 @@ input:focus {
     height: 600px;
     display: inline-block;
     transform: translateY(100%);
+    transition: 1s 1.5s;
 }
