@@ -53,7 +53,7 @@ function Nbuttons () {
             aboutimg.style='opacity:0%;'
             projectimg.style='width:100%'
             setTimeout(displaynone, 600, aboutimg, contactimg);
-            projectcontent.style="transform:translateY(-100%); opacity: 100%; transition: transform 0.7s 1.5s"
+            projectcontent.style="transform:translateY(-100%); opacity: 100%; transition: transform 0.7s 0.5s"
         } else if (projop === '1') {
             contactimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
             aboutimg.style='opacity:0%;transition: opacity 0.7s 1.5s;'
@@ -79,7 +79,7 @@ function Nbuttons () {
             contactimg.style='width:100%'
             contactimgholder.style='transform:translateX(-33vw);'
             setTimeout(displaynone, 600, aboutimg, projectimg);
-            contactcontent.style="transform:translateY(-200%);opacity: 100%; transition: transform 0.7s 1.5s"
+            contactcontent.style="transform:translateY(-200%);opacity: 100%; transition: transform 0.7s 0.8s"
         } else if (contactop === '1') {
             aboutimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
             projectimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
