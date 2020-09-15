@@ -16,7 +16,6 @@
     width: 33.1%;
     height: 250px;
     min-width: 400px;
-    border: 1px solid rgb(158, 32, 32);
     float: left;
 }
 
@@ -27,31 +26,31 @@ input {
 input:focus {
     outline: none;
 }
-#aboutimgcont {
+#aboutimgholder {
     transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s 0.5s;
 
 }
-#projectimgcont {
+#projectimgholder {
     transition: transform 0.5s 1s, opacity 0.5s 0s, width 0s 0.6s;
 
 }
-#contactimgcont {
+#contactimgholder {
     transition: transform 0.5s 1s, opacity 0.5s 0s, width 1s 0.6s;
 
 }
 #aboutimg {
-    max-width:350px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.5s 0.5s;
+    max-width:600px;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.8s 1s;
 }
 #projectimg {
     max-width: 600px;
     margin-top: 50px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.6s 0s;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.8s 1s;
 }
 #contactimg {
     margin-top: 80px;
     max-width: 600px;
-    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.6s 0s;
+    transition: transform 0.5s 1s, opacity 0.5s 0s, width 0.8s 1s;
 }
 
 .content {
