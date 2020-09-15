@@ -42,7 +42,7 @@ background-position-x: center;
 background-repeat: no-repeat;
 background-size: fill, ;
 background-image: url(../../resources/mountainsungood.png), url(../../resources/longbackground.png), linear-gradient(180deg, rgb(27, 26, 74) 0%, rgba(53,30,92,1) 21%, rgb(27, 21, 46) 30%, rgb(24, 20, 37) 70%);
-height: 3000px;
+height: 4000px;
 }
 
 .backgroundImage {
