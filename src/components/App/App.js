@@ -5,9 +5,8 @@ import FaceBox from '../Facebox/facebox';
 import trees from '../../resources/treebottom.png'
 import mountainsun from '../../resources/mountainsungood.png'
 import pink from '../../resources/linetest2.png'
-import Slider from '../Slider/slider';
 import './App.css';
-import Buttons from '../Buttons/buttons';
+import Nbuttons from '../newButtons/Nbuttons.js';
 
 function App() {
   return (
@@ -41,10 +40,9 @@ function App() {
         
 
         <section className ='otherboxes'>
-          <Buttons />
-
-          
+        <Nbuttons />
         </section>
+
 
       </main>
 

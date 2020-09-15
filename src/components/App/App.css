@@ -109,10 +109,7 @@ h2 {
 }
 
 .otherboxes {
-  height: 450px;
-  position: absolute;
-  top: 1700px;
-  width: 90%;
+  margin-top: 950px;
 }
 
 .pinkline {

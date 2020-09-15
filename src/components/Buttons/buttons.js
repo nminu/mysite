@@ -85,21 +85,6 @@ function Buttons () {
             </p>
         </div>
         <div id='projtxt' className='projbox'>
-            <section className='project'>
-                <h2 className='projtitle'>RetroSite</h2>
-                <p>
-                    This portfolio site has been my first major solo project. It was built using React.js. 
-                    All the graphics were made by me in Photoshop. 
-                    I plan on adding more functionality and interactivity.   
-                </p>
-            </section>
-            <section className='project'>
-                <h2 className='projtitle'>Upcoming</h2>
-                <p>
-                    This spot is for a project I am currently working on that will be finished soon. 
-                    Check back soon if you like dice games ;)
-                </p>
-            </section>
         </div>
         <div id='worktxt' className='workbox'>
             <section className='work'>

@@ -1,0 +1,48 @@
+.alldiv {
+    border: 1px solid rgb(227, 15, 255);
+    height: 850px;
+    text-align: center;
+    width: 100%;
+    max-width: 1920px;
+
+}
+
+.btnholder {
+    width:99.8%;
+    border: 1px solid goldenrod;
+    height: 250px;
+}
+
+.btn {
+    width: 33.1%;
+    height: 250px;
+    min-width: 400px;
+    float: left;
+    border: 1px solid rgb(158, 32, 32);
+}
+
+input {
+    width: 80%;
+}
+
+input:focus {
+    outline: none;
+}
+
+#aboutimg {
+    max-width:300px;
+}
+#projimg {
+    margin-top: 50px;
+}
+#contactimg {
+    margin-top: 80px;
+}
+
+.content {
+    border: 2px solid rgb(0, 255, 85);
+    width: 90%;
+    height: 600px;
+    display: inline-block;
+    transform: translateY(100%);
+}
