@@ -28,7 +28,7 @@ function Nbuttons () {
             aboutimg.style='width:100%'
             aboutimgholder.style='transform:translateX(33vw);'
             setTimeout(displaynone, 600, projectimg, contactimg);
-            aboutcontent.style="transform:translateY(0%); opacity: 100%;"
+            aboutcontent.style="transform:translateY(0%); opacity: 100%;transition: transform 0.8s 1s"
         } else if (abtop === '1') {
             projectimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
             contactimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
@@ -61,8 +61,6 @@ function Nbuttons () {
             setTimeout(displayall, 1200, aboutimg, contactimg);
             projectcontent.style="transform:translateY(100%); opacity: 0%; transition: transform 1s 0s, opacity 0.5s 0s;"
         }
-
-
     }
     const contact = () => {
         const contactcontent = document.getElementById('contactcont');
