@@ -1,10 +1,6 @@
 import React from 'react';
-import backdrop2 from '../../resources/backdrop2.png';
-import sun2 from '../../resources/sun2.png';
 import FaceBox from '../Facebox/facebox';
 import trees from '../../resources/treebottom.png'
-import mountainsun from '../../resources/mountainsungood.png'
-import pink from '../../resources/linetest2.png'
 import './App.css';
 import Nbuttons from '../newButtons/Nbuttons.js';
 
@@ -47,7 +43,7 @@ function App() {
       </main>
 
       <footer>
-      <img src={trees} className='trees'></img>
+      <img src={trees} className='trees' alt='trees'></img>
       </footer>
 
     </body>

@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './Nbuttons.css';
 import projectimg from '../../resources/projectsimgT.png';
 import aboutme from "../../resources/aboutme.png";
@@ -94,18 +94,22 @@ function Nbuttons () {
     <div className='alldiv'>
         <div className='btnholder'>
             <div id='aboutimgholder' className='btn'>
-                <input type='image' src={aboutme} id="aboutimg" onClick={about}></input>
+                <input type='image' src={aboutme} id="aboutimg" onClick={about} alt='about'></input>
             </div>
             <div id='projectimgholder' className='btn'>
-                <input type='image' src={projectimg} id="projectimg" onClick={proj}></input>
+                <input type='image' src={projectimg} id="projectimg" onClick={proj} alt='project'></input>
             </div>
             <div id='contactimgholder' className='btn'>
-                <input type='image' src={workimg} id="contactimg" onClick={contact}></input>
+                <input type='image' src={workimg} id="contactimg" onClick={contact} alt='contact'></input>
             </div>
         </div>
 
         <div id='aboutcont' className='content'>
-
+            <p className='aboutp'>I'm Nick Minutillo, a self-taught web developer based out of beautiful Austin, TX. 
+                After living in South Florida for most of my life I attended Penn State University where I earned my engineering degree. 
+                I enjoy coding, playing video games, playing sports outside, and watching hockey (LGR). 
+                I made this site to showcase a few of my skills and to have some fun. Please feel free to contact me any time at (email) or by using the form on this site.
+            </p>
         </div>
 
         <div id='projectcont' className='content'>
