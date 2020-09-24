@@ -4,6 +4,7 @@ import trees from '../../resources/treebottom.png'
 import './App.css';
 import Nbuttons from '../newButtons/Nbuttons.js';
 
+
 function App() {
   return (
     <body className="Appbody">
@@ -38,7 +39,6 @@ function App() {
         <section className ='otherboxes'>
         <Nbuttons />
         </section>
-
 
       </main>
 

@@ -3,6 +3,8 @@ import './Nbuttons.css';
 import projectimg from '../../resources/projectsimgT.png';
 import aboutme from "../../resources/aboutme.png";
 import workimg from '../../resources/workimg.png';
+import Projects from '../Projects/projects.js';
+
 
 function Nbuttons () {
     function displaynone (element1, element2) {
@@ -112,8 +114,8 @@ function Nbuttons () {
             </p>
         </div>
 
-        <div id='projectcont' className='content'>
-
+        <div id='projectcont' className='content'>  
+            <Projects />
         </div>
 
         <div id='contactcont' className='content'>

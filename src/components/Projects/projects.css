@@ -1,0 +1,10 @@
+.projectsmainbox {
+    border: 1px solid red;
+}
+
+.aproject {
+    border: 1px solid yellow;
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+}
