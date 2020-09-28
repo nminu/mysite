@@ -4,19 +4,45 @@
        url('../../resources/broadwayfont/ufonts.com_broadway-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'neon';
+  src: url('../../resources/neon/neon1-webfont.woff2') format('woff2'),
+       url('../../resources/neon/neon1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nunito';
+  src: url('../../resources/nunito/nunito-regular1-webfont.woff2') format('woff2'),
+       url('../../resources/nunito/nunito-regular1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'streamsterregular';
+  src: url('../../resources/streamster/streamster1-webfont.woff2') format('woff2'),
+       url('../../resources/streamster/streamster1-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
 .App {
   scroll-behavior: smooth;
-
 }
 
 .Appbody {
-background-position-y: 350px;
+background-position-y: -150px;
 background-position-x: center;
 background-repeat: no-repeat;
-background-color: rgb(32,26,86);
+background-size: fill, ;
+background-image: url(../../resources/mountainsungood4k.png), url(../../resources/longbackground.png), linear-gradient(180deg, rgb(27, 26, 74) 0%, rgba(53,30,92,1) 21%, rgb(27, 21, 46) 30%, rgb(24, 20, 37) 70%);
+height: 3150px;
 }
 
 .backgroundImage {
@@ -42,60 +68,85 @@ background-color: rgb(32,26,86);
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 main {
   width: 100%;
 }
 
+h2 {
+  font-family: 'neon';
+}
+
 .introbox {
-  margin-top: 50px;
-  margin-left: 350px;
-  display: flex;
-  height: 400px;
-  z-index: -1;
-  justify-content: center;
+  margin: auto;
+  margin-top: 320px;
+  width: 600px;
+  height: 240px;
+  font-family: 'neon';
+  text-align: center;
+  box-shadow: 0px 0px 80px 23px #18142a;
+  background-color:rgb(24,20,42, 0.7);
+  border-radius: 100px / 50px;
+}
+
+.introbox h1 {
+  margin-bottom: -40px;
+}
+
+.introbox p {
+  margin-top: 0;
+  color: #f03c70;
+  font-size: 24px;
 }
 
 .introbox article {
   justify-content: center;
 }
 
-.introbox h1 {
-  margin: auto;
-  margin-right:10px;
-  text-align: center;
-  font-size: 10vw;
-  font-family: 'broadwayregular';
-  color: rgb(27,182,225);
-  overflow: hidden;
+.gradient {
+  background:linear-gradient(180deg, rgba(252,176,42,1) 30%, rgba(235,13,140,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.introbox p {
-  color: rgb(27,182,225);
-  margin:auto;
-  text-align: center;
-  margin-top: 30px;
-  padding: 0px 50px;
+.otherboxes {
+  margin-top: 1000px;
+}
+
+.aboutp {
+  font-family: 'neon';
   font-size: 24px;
-}
-
-.sun {
-  width: 250px;
-  position: absolute;
-  margin-top: 71px;
-  z-index: 0;
-}
-
-.tree {
-  width: 100%;
+  border: 1.5px solid rgb(27,182,225);
+  box-shadow: 0px 0px 10px 2px rgb(27,182,225), inset 0px 0px 10px 2px rgb(27,182,225);
+  border-radius: 10px;
+  color: rgb(27,182,225);
+  padding: 40px;
+  width: 60vw;
   margin: auto;
-  margin-top: 0px;
+  margin-top: 130px;
+}
+
+.trees {
+  width: 100%;
+}
+
+#welcome path:nth-child(1) {
+  
+}
+#welcome path:nth-child(2) {
+  
+}
+#welcome path:nth-child(3) {
+  
+}
+#welcome path:nth-child(4) {
+  
+}
+#welcome path:nth-child(5) {
+  
+}
+#welcome path:nth-child(6) {
+  
+}
+#welcome path:nth-child(7) {
+  
 }

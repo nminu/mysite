@@ -4,9 +4,18 @@
     align-items: left;
     border: solid 4px;
     border-color: rgb(214,42,124);
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 2px rgb(214,42,124);
     position: absolute;
     margin-top: 300px;
     margin-left: 80px;
     z-index: 1;
-    background-color: rgb(45,43,114);;
+    background-color: rgb(45, 43, 112);
+    font-family: 'nunito';
+    color: rgb(27,182,225);
+    padding: 10px;
   }
+
+.imgbox:hover {
+  box-shadow: 0px 0px 20px 2px rgb(214,42,124);
+}
