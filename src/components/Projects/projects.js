@@ -5,8 +5,8 @@ class Projects extends React.Component {
 
     render () {
         return (
-        <div className='pwrapper'>
-            <div className='pcard'>
+        <ul className='pwrapper'>
+            <li className='pcard'>
                 <div className='poverlay'>
                     <div className='pinfo'>
                         <h1>
@@ -20,9 +20,9 @@ class Projects extends React.Component {
                         </button>
                     </div>
                 </div>
-            </div>
+            </li>
 
-            <div className='pcard'>
+            <li className='pcard'>
                 <div className='poverlay'>
                     <div className='pinfo'>
                         <h1>
@@ -36,9 +36,9 @@ class Projects extends React.Component {
                         </button>
                     </div>
                 </div>
-            </div>
+            </li>
 
-            <div className='pcard'>
+            <li className='pcard'>
                 <div className='poverlay'>
                     <div className='pinfo'>
                         <h1>
@@ -52,9 +52,9 @@ class Projects extends React.Component {
                         </button>
                     </div>
                 </div>
-            </div>
+            </li>
 
-        </div>
+        </ul>
     )}
 };
 

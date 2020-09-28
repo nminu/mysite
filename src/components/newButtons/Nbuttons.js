@@ -15,6 +15,14 @@ function Nbuttons () {
         element1.style="display:initial;"
         element2.style="display:initial;"
     }
+    function toggleOverflow () {
+        var btnholder = document.getElementById('btnholder')
+        if (btnholder.style.overflow === 'hidden') {
+            btnholder.style='overflow:initial'
+        } else {
+            btnholder.style='overflow:hidden'
+        }
+    }
     const about = () => {
         const aboutcontent = document.getElementById('aboutcont');
         const projectimg = document.getElementById('projectimg');
@@ -31,6 +39,7 @@ function Nbuttons () {
             aboutimgholder.style='transform:translateX(33vw);'
             setTimeout(displaynone, 600, projectimg, contactimg);
             aboutcontent.style="transform:translateY(0%); opacity: 100%;transition: transform 0.8s 1s"
+            setTimeout(toggleOverflow, 1000)
         } else if (abtop === '1') {
             projectimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
             contactimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
@@ -38,6 +47,7 @@ function Nbuttons () {
             setTimeout(displayall, 1200, projectimg, contactimg);
             aboutimgholder.style='transform:translateX(0vw);transition: transform 0.5s 0.5s;'
             aboutcontent.style="transform:translateY(100%); opacity: 0%; transition: transform 1s 0s, opacity 0.5s 0s;"
+            setTimeout(toggleOverflow, 1000)
         }
 
 
@@ -56,12 +66,14 @@ function Nbuttons () {
             projectimg.style='width:100%'
             setTimeout(displaynone, 600, aboutimg, contactimg);
             projectcontent.style="transform:translateY(-100%); opacity: 100%; transition: transform 0.7s 0.5s"
+            setTimeout(toggleOverflow, 800)
         } else if (projop === '1') {
             contactimg.style="opacity:0%;transition: opacity 0.7s 1.5s;"
             aboutimg.style='opacity:0%;transition: opacity 0.7s 1.5s;'
             projectimg.style='width:80%;transition: width 0.5s 0.5s;'
             setTimeout(displayall, 1200, aboutimg, contactimg);
             projectcontent.style="transform:translateY(100%); opacity: 0%; transition: transform 1s 0s, opacity 0.5s 0s;"
+            setTimeout(toggleOverflow, 1000)
         }
     }
     const contact = () => {
@@ -94,7 +106,7 @@ function Nbuttons () {
     
     return (
     <div className='alldiv'>
-        <div className='btnholder'>
+        <div className='btnholder' id='btnholder'>
             <div id='aboutimgholder' className='btn'>
                 <input type='image' src={aboutme} id="aboutimg" onClick={about} alt='about'></input>
             </div>
