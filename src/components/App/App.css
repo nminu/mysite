@@ -41,8 +41,9 @@ background-position-y: -180px;
 background-position-x: center;
 background-repeat: no-repeat;
 background-size: fill, ;
-background-image: url(../../resources/mountainsungood4k.png), url(../../resources/longbackground.png), linear-gradient(180deg, rgb(27, 26, 74) 0%, rgba(53,30,92,1) 21%, rgb(27, 21, 46) 30%, rgb(24, 20, 37) 70%);
+background-image: url(../../resources/backgroundno.png), url(../../resources/longbackground.png), linear-gradient(180deg, rgb(27, 26, 74) 0%, rgba(53,30,92,1) 21%, rgb(27, 21, 46) 30%, rgb(24, 20, 37) 70%);
 height: 3150px;
+z-index: -1;
 }
 
 .backgroundImage {
@@ -78,7 +79,7 @@ h2 {
 
 .introbox {
   margin: auto;
-  margin-top: 300px;
+  margin-top: -250px;
   width: 600px;
   height: 240px;
   font-family: 'neon';
@@ -127,6 +128,29 @@ h2 {
 
 .trees {  
   width: 100%;
+}
+
+.parasun {
+  background-image: url(../../resources/justsun.png);
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: -20px;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.paramount {
+  background-image: url(../../resources/justmountains.png);
+  background-position: center;
+  background-position-y: 120px;
+  height: 1900px;
+  background-repeat: no-repeat;
+}
+
+.mountain {
+  height: 1000px;
+  z-index: 1;
 }
 
 #welcome path:nth-child(1) {
