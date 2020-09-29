@@ -1,12 +1,10 @@
 import React from 'react';
 import FaceBox from '../Facebox/facebox';
-import mountain from '../../resources/justmountains.png'
-import sun from '../../resources/justsun.png'
 import './App.css';
-import Nbuttons from '../newButtons/Nbuttons.js';
 
 
 function App() {
+
   return (
     <body className="Appbody">
       <FaceBox />
@@ -52,6 +50,7 @@ function App() {
 
     </body>
   );
+  
 }
 
 export default App;
