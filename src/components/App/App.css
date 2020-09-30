@@ -157,6 +157,60 @@ h2 {
   z-index: 1;
 }
 
+.aboutMe {
+  position: absolute;
+  top: 2000px;
+  border: 1px solid red;
+  height: 800px;
+  width: 100%;
+}
+
+.information {
+  border: 1px solid blue;
+  width: 49%;
+  height: 100%;
+  float: left;
+}
+
+.infocontent {
+  margin-left: 120px;
+}
+
+.infotext {
+  font-family: 'neon';
+  font-size: 24px;
+  color:rgb(27,182,225);
+  width: 400px;
+}
+
+.infobutton {
+  width: 120px;
+  height:40px;
+  border-radius:180px;
+  margin-left: 20px;
+  cursor:pointer;
+}
+
+.line {
+    display: block;
+    width: 88px;
+    height: 4px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(252,176,42,1) 0%, rgba(235,13,140,1) 70%);
+} 
+
+.line2 {
+  margin-top:12px;
+  margin-left: 50px;
+}
+
+.pic {
+  border: 1px solid green;
+  width: 49%;
+  height: 100%;
+  float: right;
+}
+
 #welcome path:nth-child(1) {
   
 }
