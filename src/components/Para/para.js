@@ -11,8 +11,8 @@ class ParallaxComponent extends Component {
     render () {
 
     return (
-        <div ref={el => this.scene = el}>
-            <div className='parasun'>
+        <div ref={el => this.scene = el} data-hover-only='true'>
+            <div className='parasun' >
                 <div className='paramount'>
                 </div>
             </div>   
@@ -29,7 +29,7 @@ class ParallaxComponent extends Component {
                 </h1>
                 <p className='introtext'>
                     <span className='gradient'>I'm Nick Minutillo</span> <br />
-                    <span className='gradient'>Click below to read about me</span> <br />
+                    <span className='gradient'>Scroll down to read about me</span> <br />
                     <span className='gradient'>Also check out some of my latest projects</span> <br />
                     <span className='gradient'>Get in touch by email, or by using the form below</span>
                 </p>
