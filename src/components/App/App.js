@@ -2,6 +2,8 @@ import React from 'react';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js'
 import aboutme from '../../resources/aboutme.png'
+import shape from '../../resources/shape.png'
+import wire from '../../resources/wire.png'
 import './App.css';
 
 
@@ -37,11 +39,16 @@ function App() {
           </div>
 
         </div>
-        <div className='pic'>
 
-        </div>
       </div>
-
+      <div className='paragroup'>
+          <div className='parashape para'> 
+            <img src={shape}></img>
+          </div>
+          <div className='parawire para'>
+            <img src={wire}></img>
+          </div>
+        </div>
 
       </main>
 

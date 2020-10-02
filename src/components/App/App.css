@@ -211,6 +211,22 @@ h2 {
   float: right;
 }
 
+.parashape {
+  -webkit-transform: translateZ(-300px) scale(4);
+  transform: translateZ(-300px) scale(4);
+}
+
+.paragroup {
+  width: 780px;
+  position: absolute;
+  top: 1900px;
+}
+
+.para img {
+  width: 100%;
+}
+
+
 #welcome path:nth-child(1) {
   
 }
