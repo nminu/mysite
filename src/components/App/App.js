@@ -2,9 +2,10 @@ import React from 'react';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js'
 import aboutme from '../../resources/aboutme.png'
-import shape from '../../resources/shape.png'
+import shape from '../../resources/transition.png'
 import wire from '../../resources/wire.png'
 import './App.css';
+import Transition from '../parallaxtransition/paratrans';
 
 
 function App() {
@@ -37,18 +38,9 @@ function App() {
             </div>
             <button className='infobutton'>Read More</button>
           </div>
-
         </div>
-
       </div>
-      <div className='paragroup'>
-          <div className='parashape para'> 
-            <img src={shape}></img>
-          </div>
-          <div className='parawire para'>
-            <img src={wire}></img>
-          </div>
-        </div>
+    <Transition />
 
       </main>
 

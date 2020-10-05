@@ -41,8 +41,9 @@ background-position-y: -180px;
 background-position-x: center;
 background-repeat: no-repeat;
 background-size: fill, ;
-background-image: url(../../resources/backgroundno.png), url(../../resources/longbackground.png), linear-gradient(180deg, rgb(27, 26, 74) 0%, rgba(53,30,92,1) 21%, rgb(27, 21, 46) 30%, rgb(24, 20, 37) 70%);
-height: 3150px;
+background-image: url(../../resources/backgroundno.png);
+background-color:  rgb(24, 20, 37);
+height: 5000px;
 z-index: -1;
 }
 
@@ -79,7 +80,7 @@ h2 {
 
 .introbox {
   margin: auto;
-  margin-top: -250px;
+  margin-top: -280px;
   position: initial !important;
   width: 600px;
   height: 300px;
@@ -148,7 +149,7 @@ h2 {
   background-position-y: 120px;
   background-size: fill;
   width: 100%;
-  height: 1900px;
+  height: 2900px;
   background-repeat: no-repeat;
 }
 
@@ -211,19 +212,30 @@ h2 {
   float: right;
 }
 
-.parashape {
-  -webkit-transform: translateZ(-300px) scale(4);
-  transform: translateZ(-300px) scale(4);
-}
-
-.paragroup {
-  width: 780px;
+.wire {
+  background-image: url(../../resources/wire.png);
+  background-size: cover;
+  background-position: center;
   position: absolute;
-  top: 1900px;
+  height: 100%;
+  width: 100%;
 }
 
-.para img {
+.shape {
+  background-image: url(../../resources/transition.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: absolute;
+  height: 100%;
   width: 100%;
+}
+
+.transition {
+  width: 100%;
+  position: absolute;
+  top: 3000px;
+  height: 1200px;
 }
 
 
