@@ -40,11 +40,12 @@ function App() {
           </div>
         </div>
       </div>
-    <Transition />
+      <Transition />
 
       </main>
 
       <footer>
+        <div className='footer'></div>
       </footer>
 
     </body>

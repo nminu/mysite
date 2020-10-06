@@ -43,7 +43,7 @@ background-repeat: no-repeat;
 background-size: fill, ;
 background-image: url(../../resources/backgroundno.png);
 background-color:  rgb(24, 20, 37);
-height: 5000px;
+height: 7000px;
 z-index: -1;
 }
 
@@ -128,10 +128,6 @@ h2 {
   margin-top: 130px;
 }
 
-.trees {  
-  width: 100%;
-}
-
 .parasun {
   background-image: url(../../resources/justsun.png);
   height: 500px;
@@ -213,31 +209,42 @@ h2 {
 }
 
 .wire {
-  background-image: url(../../resources/wire.png);
-  background-size: cover;
-  background-position: center;
+  background-image: url(../../resources/wire2.png);
   position: absolute;
-  height: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 2000px;
   width: 100%;
+  z-index: 0;
 }
 
 .shape {
-  background-image: url(../../resources/transition.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: none;
+  background-image: url(../../resources/shape2.png);
+  background-repeat: no-repeat;
   position: absolute;
-  height: 100%;
+  top: -500px;
+  height: 2200px;
   width: 100%;
+  z-index: 1;
 }
 
 .transition {
   width: 100%;
   position: absolute;
   top: 3000px;
-  height: 1200px;
+  height: 2000px;
 }
 
+.footer {
+  position: absolute;
+  background-image: url(../../resources/footer.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  top: 6300px;
+}
 
 #welcome path:nth-child(1) {
   
