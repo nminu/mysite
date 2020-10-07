@@ -160,7 +160,7 @@ h2 {
   height: 800px;
   width: 100%;
   z-index: 1;
-  margin-left: 100px;
+  overflow: hidden;
 }
 
 .projects {
@@ -169,7 +169,7 @@ h2 {
   height: 800px;
   width: 100%;
   z-index: 1;
-  margin-left: 100px;
+  overflow: hidden;
 }
 
 .contact {
@@ -178,7 +178,7 @@ h2 {
   height: 800px;
   width: 100%;
   z-index: 1;
-  margin-left: 100px;
+  overflow: hidden;
 }
 
 .contactimg {
@@ -190,6 +190,7 @@ h2 {
 .projimg {
   width: 650px;
   margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 .information {
@@ -197,6 +198,8 @@ h2 {
   height: 100%;
   float: left;
   z-index: 1;
+  left: 80px;
+  position: absolute;
 }
 
 .infocontent {
@@ -225,7 +228,6 @@ h2 {
   width: 55%;
   height: 500px;
   margin-top: 90px;
-  margin-right:20px;
 }
 
 .rightpic img {

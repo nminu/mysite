@@ -58,7 +58,9 @@ function App() {
               <div className='line line2'></div>
             </div>
             <div>
-              <p className='infotext'> Please fill out the form to contact me! Or email me at: contact@minutillo.com</p>
+              <p className='infotext'> Please fill out the form to contact me! 
+              <br /><br />
+              Or email me at: contact@minutillo.com</p>
             </div>
             <button className='infobutton'>Read More</button>
           </div>
