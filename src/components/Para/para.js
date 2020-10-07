@@ -11,7 +11,7 @@ class ParallaxComponent extends Component {
     render () {
 
     return (
-        <div classname='parabox' ref={el => this.scene = el} data-hover-only='true'>
+        <div className='parabox' ref={el => this.scene = el} data-hover-only='true'>
             <div className='parasun' data-depth="0.08">
             </div>   
             <div className='paramount'>
