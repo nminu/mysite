@@ -74,6 +74,22 @@ main {
   width: 100%;
 }
 
+.stars {
+  position: absolute;
+  top: 1400px;
+  height: 2200px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.stars2 {
+  position: absolute;
+  top: 3400px;
+  height: 2300px;
+  width: 100%;
+  overflow: hidden;
+}
+
 h2 {
   font-family: 'neon';
 }

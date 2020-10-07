@@ -24,11 +24,13 @@ function App() {
         
 
       <Para />
-
-      <div className='aboutMe'>
+      <div className='stars'>
       <div id='stars'></div>
       <div id='stars2'></div>
       <div id='stars3'></div>
+      </div>
+
+      <div className='aboutMe'>
         <div className ='information'>
           <div className='infopic'>
             <img src={aboutme}></img>
@@ -71,6 +73,12 @@ function App() {
         <div className='rightpic'>
           <img src={test}></img>
         </div>
+      </div>
+
+      <div className='stars2'>
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
       </div>
 
       </main>
