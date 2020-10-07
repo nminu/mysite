@@ -2,6 +2,8 @@ import React from 'react';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js'
 import aboutme from '../../resources/aboutme.png'
+import test from '../../resources/2.jpg'
+import contactimg from '../../resources/workimg.png'
 import shape from '../../resources/transition.png'
 import wire from '../../resources/wire.png'
 import './App.css';
@@ -34,13 +36,37 @@ function App() {
               <div className='line line2'></div>
             </div>
             <div>
-              <p className='infotext'> I yeet and yaat and definitely have yote. Test test test</p>
+              <p className='infotext'> I'm Nick Minutillo, click on the right to read a little about me</p>
             </div>
             <button className='infobutton'>Read More</button>
           </div>
         </div>
+        <div className='rightpic'>
+          <img src={test}></img>
+        </div>
       </div>
       <Transition />
+
+      <div className='contact'>
+        <div className ='information'>
+          <div className='infopic'>
+            <img src={contactimg} className='contactimg'></img>
+          </div>
+          <div className='infocontent'>
+            <div>
+              <div className='line'></div>
+              <div className='line line2'></div>
+            </div>
+            <div>
+              <p className='infotext'> Please fill out the form to contact me! Or email me at: contact@minutillo.com</p>
+            </div>
+            <button className='infobutton'>Read More</button>
+          </div>
+        </div>
+        <div className='rightpic'>
+          <img src={test}></img>
+        </div>
+      </div>
 
       </main>
 

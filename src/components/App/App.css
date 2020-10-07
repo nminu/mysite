@@ -43,7 +43,7 @@ background-repeat: no-repeat;
 background-size: fill, ;
 background-image: url(../../resources/backgroundno.png);
 background-color:  rgb(24, 20, 37);
-height: 7000px;
+height: 5700px;
 z-index: -1;
 }
 
@@ -156,17 +156,47 @@ h2 {
 
 .aboutMe {
   position: absolute;
-  top: 2000px;
-  border: 1px solid red;
+  top: 1800px;
   height: 800px;
   width: 100%;
+  z-index: 1;
+  margin-left: 100px;
+}
+
+.projects {
+  position: absolute;
+  top: 850px;
+  height: 800px;
+  width: 100%;
+  z-index: 1;
+  margin-left: 100px;
+}
+
+.contact {
+  position: absolute;
+  top: 4250px;
+  height: 800px;
+  width: 100%;
+  z-index: 1;
+  margin-left: 100px;
+}
+
+.contactimg {
+  width: 700px;
+  margin-bottom: 50px;
+  margin-top: 90px;
+}
+
+.projimg {
+  width: 750px;
+  margin-bottom: 50px;
 }
 
 .information {
-  border: 1px solid blue;
-  width: 49%;
+  width: 40%;
   height: 100%;
   float: left;
+  z-index: 1;
 }
 
 .infocontent {
@@ -178,14 +208,30 @@ h2 {
   font-size: 24px;
   color:rgb(27,182,225);
   width: 400px;
+  margin-top: 30px;
 }
 
 .infobutton {
   width: 120px;
   height:40px;
   border-radius:180px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
   cursor:pointer;
+}
+
+.rightpic {
+  float: right;
+  width: 55%;
+  height: 500px;
+  margin-top: 90px;
+  margin-right:20px;
+}
+
+.rightpic img {
+  height: 400px;
+  position: absolute;
+  z-index: -1;
 }
 
 .line {
@@ -222,7 +268,7 @@ h2 {
   background-image: url(../../resources/shape2.png);
   background-repeat: no-repeat;
   position: absolute;
-  top: -500px;
+  top: -450px;
   height: 2200px;
   width: 100%;
   z-index: 1;
@@ -231,7 +277,7 @@ h2 {
 .transition {
   width: 100%;
   position: absolute;
-  top: 3000px;
+  top: 2600px;
   height: 2000px;
 }
 
@@ -243,8 +289,10 @@ h2 {
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
-  top: 6300px;
+  top: 5000px;
 }
+
+
 
 #welcome path:nth-child(1) {
   
