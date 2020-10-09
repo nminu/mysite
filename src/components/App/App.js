@@ -75,16 +75,15 @@ function App() {
         </div>
       </div>
 
-      <div className='stars2'>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-      </div>
 
       </main>
 
       <footer>
-        <div className='footer'></div>
+        <div className='footer'>
+
+          <p className='footertext gradient'>Thank you for visiting my site!</p>
+          <p className='footertext2 gradient'>Please feel free to get in touch.</p>
+        </div>
       </footer>
 
     </body>

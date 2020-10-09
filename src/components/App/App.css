@@ -76,8 +76,8 @@ main {
 
 .stars {
   position: absolute;
-  top: 1400px;
-  height: 2200px;
+  top: 1475px;
+  height: 2400px;
   width: 100%;
   overflow: hidden;
 }
@@ -303,7 +303,7 @@ h2 {
   background-size: 1800px;
   background-position-x: 250px;
   top: -450px;
-  height: 5200px;
+  height: 2200px;
   width: 100%;
   z-index: 0;
 }
@@ -315,7 +315,7 @@ h2 {
   background-position-x: 50px;
   position: absolute;
   top: 0px;
-  height: 5200px;
+  height: 2200px;
   width: 100%;
   z-index: 1;
 }
@@ -327,18 +327,18 @@ h2 {
   background-size: 1800px;
   background-position-x: 250px;
   top: 150px;
-  height: 5200px;
+  height: 2200px;
   width: 100%;
   z-index: 1;
 }
 
 .pbbush {
-  background-image: url(../../resources/pbbush.png);
+  background-image: url(../../resources/pbbushT.png);
   background-repeat: no-repeat;
   background-size: 2000px;
   position: absolute;
   top: 700px;
-  height: 5000px;
+  height: 2000px;
   width: 100%;
   z-index: 1;
 }
@@ -347,7 +347,7 @@ h2 {
   width: 100%;
   position: absolute;
   top: 2600px;
-  height: 5000px;
+  height: 2000px;
 }
 
 .footer {
@@ -359,6 +359,20 @@ h2 {
   height: 700px;
   width: 100%;
   top: 5000px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footertext {
+  width: 600px;
+  font-size: 36px;
+  margin:auto;
+  margin-top: 400px;
+}
+.footertext2 {
+  width: 600px;
+  font-size: 24px;
+  margin:auto;
 }
 
 
