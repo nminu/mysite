@@ -194,7 +194,7 @@ h2 {
 
 .contact {
   position: absolute;
-  top: 4250px;
+  top: 4600px;
   height: 800px;
   width: 100%;
   z-index: 1;
@@ -296,11 +296,58 @@ h2 {
   z-index: 1;
 }
 
+.pbback {
+  background-image: url(../../resources/pbback.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 1800px;
+  background-position-x: 250px;
+  top: -450px;
+  height: 5200px;
+  width: 100%;
+  z-index: 0;
+}
+
+.pbmid {
+  background-image: url(../../resources/pbmid.png);
+  background-repeat: no-repeat;
+  background-size: 1800px;
+  background-position-x: 50px;
+  position: absolute;
+  top: 0px;
+  height: 5200px;
+  width: 100%;
+  z-index: 1;
+}
+
+.pbfront {
+  background-image: url(../../resources/pbfront.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: 1800px;
+  background-position-x: 250px;
+  top: 150px;
+  height: 5200px;
+  width: 100%;
+  z-index: 1;
+}
+
+.pbbush {
+  background-image: url(../../resources/pbbush.png);
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  position: absolute;
+  top: 700px;
+  height: 5000px;
+  width: 100%;
+  z-index: 1;
+}
+
 .transition {
   width: 100%;
   position: absolute;
   top: 2600px;
-  height: 2000px;
+  height: 5000px;
 }
 
 .footer {

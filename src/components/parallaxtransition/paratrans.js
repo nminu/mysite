@@ -20,37 +20,26 @@ export default class Transition extends React.Component {
 
 
     parallaxTrans = () => {
-        this.setState({
-          offset: window.pageYOffset
+      var scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;  
+      console.log(scrollTop);
+      console.log(this.state.offset)
+      if(scrollTop < 3500 && scrollTop > 900) {
+      this.setState({
+          offset: (-window.pageYOffset + 3500)
         });
       };
+    }
       
       render () {
           return (
             <div className = 'transition'>
-            <div style= {{backgroundPositionY: this.state.offset / 6}} className='shape'>
-            <div className='projects'>
-        <div className ='information'>
-          <div className='infopic'>
-            <img src={projectimg} className='projimg'></img>
-          </div>
-          <div className='infocontent'>
-            <div>
-              <div className='line'></div>
-              <div className='line line2'></div>
+            <div style= {{backgroundPositionY: -(this.state.offset / 10)}} className='pbback'>
             </div>
-            <div>
-              <p className='infotext'> Check out some of my latest projects.</p>
+            <div style= {{backgroundPositionY: this.state.offset / 6}} className='pbmid'>
             </div>
-            <button className='infobutton'>Read More</button>
-          </div>
-        </div>
-        <div className='rightpic'>
-          <img src={test}></img>
-        </div>
-      </div>
+            <div style= {{backgroundPositionY: this.state.offset / 3}} className='pbfront'>
             </div>
-            <div className='wire'>
+            <div style= {{backgroundPositionY: this.state.offset / 2}} className='pbbush'>
             </div>
             </div>
     )};
