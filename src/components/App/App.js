@@ -31,50 +31,16 @@ function App() {
       </div>
 
       <div className='aboutMe'>
-        <div className ='information'>
+        <div>
+          <button className='infotext'> Click to read about me!</button>
+        </div>
           <div className='infopic'>
             <img src={aboutme}></img>
           </div>
-          <div className='infocontent'>
-            <div>
-              <div className='line'></div>
-              <div className='line line2'></div>
-            </div>
-            <div>
-              <p className='infotext'> I'm Nick Minutillo, click on the right to read a little about me</p>
-            </div>
-            <button className='infobutton'>Read More</button>
-          </div>
-        </div>
-        <div className='rightpic'>
-          <img src={test}></img>
-        </div>
       </div>
+      
+
       <Transition />
-
-      <div className='contact'>
-        <div className ='information'>
-          <div className='infopic'>
-            <img src={contactimg} className='contactimg'></img>
-          </div>
-          <div className='infocontent'>
-            <div>
-              <div className='line'></div>
-              <div className='line line2'></div>
-            </div>
-            <div>
-              <p className='infotext'> Please fill out the form to contact me! 
-              <br /><br />
-              Or email me at: contact@minutillo.com</p>
-            </div>
-            <button className='infobutton'>Read More</button>
-          </div>
-        </div>
-        <div className='rightpic'>
-          <img src={test}></img>
-        </div>
-      </div>
-
 
       </main>
 

@@ -176,9 +176,9 @@ h2 {
 
 .aboutMe {
   position: absolute;
-  top: 1800px;
+  top: 2000px;
+  left: 150px;
   height: 800px;
-  width: 100%;
   z-index: 1;
   overflow: hidden;
 }
@@ -212,88 +212,68 @@ h2 {
   margin-bottom: 50px;
   margin-left: 50px;
 }
-
-.information {
-  width: 40%;
-  height: 100%;
-  float: left;
-  z-index: 1;
-  left: 80px;
-  position: absolute;
-}
-
-.infocontent {
-  margin-left: 120px;
+.infopic {
+  margin-top: 55px;
 }
 
 .infotext {
   font-family: 'neon';
   font-size: 24px;
   color:rgb(27,182,225);
-  width: 400px;
-  margin-top: 30px;
-}
-
-.infobutton {
-  width: 120px;
-  height:40px;
-  border-radius:180px;
-  margin-top: 10px;
-  margin-left: 30px;
-  cursor:pointer;
-}
-
-.rightpic {
-  float: right;
-  width: 55%;
-  height: 500px;
-  margin-top: 90px;
-}
-
-.rightpic img {
-  height: 400px;
+  width: 350px;
+  height: 60px;
+  border: 2px solid rgb(27,182,225);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
-  z-index: -1;
-}
-
-.line {
-    display: block;
-    width: 88px;
-    height: 4px;
-    border-radius: 5px;
-    background: linear-gradient(90deg, rgba(252,176,42,1) 0%, rgba(235,13,140,1) 70%);
-} 
-
-.line2 {
-  margin-top:12px;
-  margin-left: 50px;
-}
-
-.pic {
-  border: 1px solid green;
-  width: 49%;
-  height: 100%;
-  float: right;
-}
-
-.wire {
-  background-image: url(../../resources/wire2.png);
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  height: 2000px;
-  width: 100%;
+  left: 125px;
   z-index: 0;
+  transition: 0.5s;
+  background:  rgb(24, 20, 37);
 }
 
-.shape {
-  background-image: url(../../resources/shape2.png);
-  background-repeat: no-repeat;
+.infotext::before, .infotext::after {
   position: absolute;
-  top: -450px;
-  height: 2200px;
-  width: 100%;
-  z-index: 1;
+  background:  rgb(24, 20, 37);
+  z-index: -1;
+  transition: 0.5s;
+  content: '';
+}
+
+.infotext::before {
+  height: 60px;
+  width: 300px;
+}
+
+.infotext::after {
+  width: 350px;
+  height: 30px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.infotext:hover::before {
+  width: 0px;
+  background: rgb(24, 20, 37);
+}
+
+.infotext:hover::after {
+  height: 0px;
+  background:  rgb(24, 20, 37);
+}
+
+.infotext:hover {
+  background: rgb(24, 20, 37);
 }
 
 .pbback {
