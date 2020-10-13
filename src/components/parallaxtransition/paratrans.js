@@ -33,9 +33,9 @@ export default class Transition extends React.Component {
       render () {
           return (
             <div className = 'transition'>
-            <div style= {{backgroundPositionY: -(this.state.offset / 10)}} className='pbback'>
+            <div style= {{backgroundPositionY: (this.state.offset / 10)}} className='pbback'>
             </div>
-            <div style= {{backgroundPositionY: this.state.offset / 6}} className='pbmid'>
+            <div style= {{backgroundPositionY: (this.state.offset / 6)}} className='pbmid'>
             </div>
             <div style= {{backgroundPositionY: this.state.offset / 3}} className='pbfront'>
             </div>
