@@ -176,19 +176,19 @@ h2 {
 
 .aboutMe {
   position: absolute;
-  top: 2000px;
-  left: 150px;
+  top: 2450px;
+  left: 300px;
   height: 800px;
   z-index: 1;
   overflow: hidden;
 }
 
-.projects {
+.myProjects {
   position: absolute;
-  top: 850px;
+  top: 3350px;
+  left: 1100px;
   height: 800px;
-  width: 100%;
-  z-index: 1;
+  z-index: 2;
   overflow: hidden;
 }
 
@@ -213,7 +213,7 @@ h2 {
   margin-left: 50px;
 }
 .infopic {
-  margin-top: 55px;
+  margin-top: 65px;
 }
 
 .infotext {
@@ -232,7 +232,10 @@ h2 {
   left: 125px;
   z-index: 0;
   transition: 0.5s;
-  background:  rgb(24, 20, 37);
+  background:   rgb(24, 20, 37);
+  animation-name: buttonText;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
 }
 
 .infotext::before, .infotext::after {
@@ -274,6 +277,12 @@ h2 {
 
 .infotext:hover {
   background: rgb(24, 20, 37);
+}
+
+@keyframes buttonText {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(10px)}
+  100% {transform: translateY(0px)}
 }
 
 .pbback {
@@ -320,7 +329,7 @@ h2 {
   top: 700px;
   height: 2000px;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 .transition {
