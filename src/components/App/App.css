@@ -286,31 +286,31 @@ h2 {
 }
 
 .pbback {
-  background-image: url(../../resources/pbback.png);
+  background-image: url(../../resources/buildingback.png);
   background-repeat: no-repeat;
   position: absolute;
-  background-size: 1800px;
-  background-position-x: 250px;
-  top: -450px;
+  background-size: 1700px;
+  background-position-x: 140px;
+  top: -150px;
   height: 2200px;
   width: 100%;
   z-index: 0;
 }
 
 .pbmid {
-  background-image: url(../../resources/pbmid.png);
+  background-image: url(../../resources/buildingmid.png);
   background-repeat: no-repeat;
-  background-size: 1800px;
-  background-position-x: 50px;
+  background-size: 2700px;
+  background-position-x: -380px;
   position: absolute;
-  top: 0px;
+  top: 100px;
   height: 2200px;
   width: 100%;
   z-index: 1;
 }
 
 .pbfront {
-  background-image: url(../../resources/pbfront.png);
+  background-image: url(../../resources/buildingfront.png);
   background-repeat: no-repeat;
   position: absolute;
   background-size: 1800px;
@@ -322,11 +322,11 @@ h2 {
 }
 
 .pbbush {
-  background-image: url(../../resources/pbbushT.png);
+  background-image: url(../../resources/bushbridge.png);
   background-repeat: no-repeat;
   background-size: 2000px;
   position: absolute;
-  top: 700px;
+  top: 500px;
   height: 2000px;
   width: 100%;
   z-index: 3;

@@ -37,8 +37,7 @@ export default class Transition extends React.Component {
             </div>
             <div style= {{backgroundPositionY: (this.state.offset / 6)}} className='pbmid'>
             </div>
-            <div style= {{backgroundPositionY: this.state.offset / 3}} className='pbfront'>
-            </div>
+
             <div style= {{backgroundPositionY: this.state.offset / 2}} className='pbbush'>
             </div>
             </div>
