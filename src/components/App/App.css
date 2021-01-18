@@ -176,8 +176,8 @@ h2 {
 
 .aboutMe {
   position: absolute;
-  top: 2450px;
-  left: 300px;
+  top: 2950px;
+  left: 30px;
   height: 800px;
   z-index: 1;
   overflow: hidden;
@@ -185,7 +185,7 @@ h2 {
 
 .myProjects {
   position: absolute;
-  top: 3350px;
+  top: 3250px;
   left: 1100px;
   height: 800px;
   z-index: 2;
@@ -208,52 +208,20 @@ h2 {
 }
 
 .projimg {
-  width: 650px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-}
-.infopic {
-  margin-top: 65px;
-}
-
-.infotext {
-  font-family: 'neon';
-  font-size: 24px;
-  color:rgb(27,182,225);
-  width: 350px;
-  height: 60px;
-  border: 2px solid rgb(27,182,225);
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 125px;
-  z-index: 0;
-  transition: 0.5s;
-  background:   rgb(24, 20, 37);
+  width: 850px;
   animation-name: buttonText;
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
 }
-
-.infotext::before, .infotext::after {
-  position: absolute;
-  background:  rgb(24, 20, 37);
-  z-index: -1;
-  transition: 0.5s;
-  content: '';
+.aboutimg {
+  width: 850px;
+  animation-name: buttonText;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
 }
 
-.infotext::before {
-  height: 60px;
-  width: 300px;
-}
-
-.infotext::after {
-  width: 350px;
-  height: 30px;
+.infopic {
+  margin-top: 0px;
 }
 
 .noselect {
@@ -265,19 +233,6 @@ h2 {
             user-select: none;
 }
 
-.infotext:hover::before {
-  width: 0px;
-  background: rgb(24, 20, 37);
-}
-
-.infotext:hover::after {
-  height: 0px;
-  background:  rgb(24, 20, 37);
-}
-
-.infotext:hover {
-  background: rgb(24, 20, 37);
-}
 
 @keyframes buttonText {
   0% {transform: translateY(0px)}

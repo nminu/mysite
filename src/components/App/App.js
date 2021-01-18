@@ -1,8 +1,8 @@
 import React from 'react';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js'
-import aboutme from '../../resources/aboutme.png'
-import myprojects from '../../resources/projectsimgT.png'
+import aboutme from '../../resources/aboutbill2.png'
+import myprojects from '../../resources/projbill3.png'
 import test from '../../resources/2.jpg'
 import contactimg from '../../resources/workimg.png'
 import shape from '../../resources/transition.png'
@@ -33,16 +33,16 @@ function App() {
 
       <div className='aboutMe'>
         <div>
-          <button className='infotext'> Click to read about me!</button>
+
         </div>
           <div className='infopic'>
-            <img src={aboutme}></img>
+            <img src={aboutme} className='aboutimg'></img>
           </div>
       </div>
 
       <div className='myProjects'>
         <div>
-          <button className='infotext'> Click to check out my projects!</button>
+
         </div>
           <div className='infopic'>
             <img src={myprojects} className='projimg'></img>
