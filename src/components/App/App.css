@@ -40,7 +40,7 @@
 background-position-y: -180px;
 background-position-x: center;
 background-repeat: no-repeat;
-background-size: fill, ;
+background-size: fill;
 background-image: url(../../resources/backgroundno.png);
 background-color:  rgb(24, 20, 37);
 height: 5700px;
@@ -78,7 +78,7 @@ main {
   position: absolute;
   top: 1475px;
   height: 2400px;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -86,7 +86,7 @@ main {
   position: absolute;
   top: 3400px;
   height: 2300px;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -176,46 +176,33 @@ h2 {
 
 .aboutMe {
   position: absolute;
-  top: 2950px;
-  left: 30px;
-  height: 800px;
+  top: 3050px;
+  left: 14%;
+  height: 300px;
+  width: 400px;
   z-index: 1;
   overflow: hidden;
 }
 
 .myProjects {
   position: absolute;
-  top: 3250px;
-  left: 1100px;
-  height: 800px;
+  top: 3370px;
+  left: 70%;
+  height: 300px;
+  width: 400px;
   z-index: 2;
   overflow: hidden;
 }
 
-.contact {
-  position: absolute;
-  top: 4600px;
-  height: 800px;
-  width: 100%;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.contactimg {
-  width: 600px;
-  margin-bottom: 50px;
-  margin-top: 90px;
-}
-
 .projimg {
-  width: 850px;
-  animation-name: buttonText;
+  width: 400px;
+  animation-name: float;
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
 }
 .aboutimg {
-  width: 850px;
-  animation-name: buttonText;
+  width: 400px;
+  animation-name: float;
   animation-duration: 1.3s;
   animation-iteration-count: infinite;
 }
@@ -234,7 +221,7 @@ h2 {
 }
 
 
-@keyframes buttonText {
+@keyframes float {
   0% {transform: translateY(0px)}
   50% {transform: translateY(10px)}
   100% {transform: translateY(0px)}
