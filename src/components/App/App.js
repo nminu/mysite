@@ -2,7 +2,7 @@ import React from 'react';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js'
 import aboutme from '../../resources/aboutbill2.png'
-import myprojects from '../../resources/projbill3.png'
+import myprojects from '../../resources/projbill2.png'
 import test from '../../resources/2.jpg'
 import contactimg from '../../resources/workimg.png'
 import shape from '../../resources/transition.png'
@@ -15,6 +15,7 @@ function App() {
 
   return (
     <body className="Appbody">
+      <meta name="viewport" content="width=device.width, initial-scale=0.5" />
       <FaceBox />
 
       <header className="App-header">
