@@ -177,7 +177,7 @@ h2 {
 .aboutMe {
   position: absolute;
   top: 3050px;
-  left: 14%;
+  left: 15%;
   height: 300px;
   width: 400px;
   z-index: 1;
@@ -195,13 +195,13 @@ h2 {
 }
 
 .projimg {
-  width: 400px;
+  width: 350px;
   animation-name: float;
   animation-duration: 1.2s;
   animation-iteration-count: infinite;
 }
 .aboutimg {
-  width: 400px;
+  width: 350px;
   animation-name: float;
   animation-duration: 1.3s;
   animation-iteration-count: infinite;
@@ -237,6 +237,7 @@ h2 {
   height: 3000px;
   width: 100%;
   z-index: 0;
+  pointer-events:none;
 }
 
 .pbmid {
@@ -249,18 +250,7 @@ h2 {
   height: 3000px;
   width: 100%;
   z-index: 1;
-}
-
-.pbfront {
-  background-image: url(../../resources/buildingfront.png);
-  background-repeat: no-repeat;
-  position: absolute;
-  background-size: 1800px;
-  background-position-x: 250px;
-  top: 50px;
-  height: 2200px;
-  width: 100%;
-  z-index: 1;
+  pointer-events:none;
 }
 
 .pbbush {
@@ -273,6 +263,7 @@ h2 {
   height: 3000px;
   width: 100%;
   z-index: 3;
+  pointer-events:none;
 }
 
 .transition {

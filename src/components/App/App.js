@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, NavLink, Switch, Route, Link } from 'react-router-dom';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js'
 import aboutme from '../../resources/aboutbill2.png'
@@ -32,12 +33,13 @@ function App() {
       <div id='stars3'></div>
       </div>
 
+      <Router>
       <div className='aboutMe'>
         <div>
 
         </div>
-          <div className='infopic'>
-            <img src={aboutme} className='aboutimg'></img>
+        <div className='infopic'>
+        <Link to="/about"><img src={aboutme} className='aboutimg'></img></Link>
           </div>
       </div>
 
@@ -46,9 +48,10 @@ function App() {
 
         </div>
           <div className='infopic'>
-            <img src={myprojects} className='projimg'></img>
+            <Link to="/projects"><img src={myprojects} className='projimg'></img></Link>
           </div>
       </div>
+      </Router>
       
 
       <Transition />
