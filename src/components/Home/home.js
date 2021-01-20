@@ -28,8 +28,7 @@ render () {
           <div id='stars2'></div>
           <div id='stars3'></div>
           </div>
-    
-          <Router>
+
           <div className='aboutMe'>
             <div>
             </div>
@@ -46,8 +45,6 @@ render () {
                 <Link to="/projects"><img src={myprojects} className='projimg' onMouseOver={e => (e.currentTarget.src = myprojects2)} onMouseOut={e => (e.currentTarget.src = myprojects)} alt='projects billboard'></img></Link>
               </div>
           </div>
-          </Router>
-          
     
           <Transition />
     

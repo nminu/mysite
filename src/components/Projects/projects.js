@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Projects/projects.css'
+import { Link } from 'react-router-dom';
 import project from '../../resources/projectsimgT.png'
 
 class Projects extends React.Component {
@@ -18,12 +19,12 @@ class Projects extends React.Component {
                     </div>
 
                     <div class="suncontainer">
-                        <a href="https://dribbble.com/shots/10683714-50-Buttons-For-Figma-Community" target="_blank">
-                    <div class="buttontext">
+                <Link to="/">
+                    <div class="sunbuttontext">
                     <span>Home</span>
                     </div>
-                    <div class="sun"></div>
-                    </a>
+                    <div class="risingsun"></div>
+                </Link>
                     </div>
 
         <ul className='pwrapper'>
