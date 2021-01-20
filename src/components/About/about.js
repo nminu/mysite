@@ -7,7 +7,7 @@ class About extends React.Component {
 
     render () {
         return (
-            <body className='Appbody'>
+            <body className='aboutbody'>
                 <head>
 
                 </head>
@@ -18,6 +18,17 @@ class About extends React.Component {
                             <div className = 'aboutlogo'>
                                 <img src={aboutme} className='aboutimage'></img>
                             </div>
+                        </div>
+                    </div>
+
+
+                    <div className ='aboutmain'>
+                        <div className ='picbox'>
+
+                        </div>
+
+                        <div className ='abouttextbox'>
+
                         </div>
                     </div>
 

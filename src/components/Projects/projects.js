@@ -7,7 +7,7 @@ class Projects extends React.Component {
 
     render () {
         return (
-        <body className='Appbody'>
+        <body className='projectbody'>
             <head></head>
         <main>
             <div className='projhead'>
