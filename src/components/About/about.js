@@ -25,13 +25,16 @@ class About extends React.Component {
                 </main>
 
                 <div class="suncontainer">
-                <Link to="/">
-                    <div class="sunbuttontext">
-                    <span>Home</span>
-                    </div>
-                    <div class="risingsun"></div>
-                </Link>
-                    </div>
+
+                    <Link to="/">
+                        <div class="sunbuttontext">
+                            <span>Home</span>
+                        </div>
+                        <div class="risingsun">
+                        </div>
+                    </Link>
+
+                </div>
 
             </body>
     )}
