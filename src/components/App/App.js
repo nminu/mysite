@@ -1,72 +1,26 @@
 import React from 'react';
 import { BrowserRouter as Router, NavLink, Switch, Route, Link } from 'react-router-dom';
-import FaceBox from '../Facebox/facebox';
-import Para from '../Para/para.js'
-import aboutme from '../../resources/aboutbill2.png'
-import aboutme2 from '../../resources/aboutbill3.png'
-import myprojects from '../../resources/projbill2.png'
-import myprojects2 from '../../resources/projbill3.png'
 import './App.css';
-import Transition from '../parallaxtransition/paratrans';
+import Projects from '../Projects/projects';
+import About from '../About/about';
+import Home from '../Home/home';
 
 
 function App() {
 
   return (
-    <body className="Appbody">
-      <meta name="viewport" content="width=device.width, initial-scale=0.5" />
-      <FaceBox />
-
-      <header className="App-header">
-
-      </header>
-
-      <main>
-        
-
-      <Para />
-      <div className='stars'>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
-      </div>
-
-      <Router>
-      <div className='aboutMe'>
-        <div>
-        </div>
-        <div className='infopic'>
-        <Link to="/about"><img src={aboutme} className='aboutimg' onMouseOver={e => (e.currentTarget.src = aboutme2)} onMouseOut={e => (e.currentTarget.src = aboutme)}></img></Link>
-          </div>
-      </div>
-
-      <div className='myProjects'>
-        <div>
-
-        </div>
-          <div className='infopic'>
-            <Link to="/projects"><img src={myprojects} className='projimg' onMouseOver={e => (e.currentTarget.src = myprojects2)} onMouseOut={e => (e.currentTarget.src = myprojects)}></img></Link>
-          </div>
-      </div>
-      </Router>
-      
-
-      <Transition />
-
-      </main>
-
-      <footer>
-        <div className='footer'>
-
-          <p className='footertext gradient'>Thank you for visiting my site!</p>
-          <p className='footertext2 gradient'>Please feel free to get in touch.</p>
-        </div>
-      </footer>
-
-    </body>
+    <Main />
   );
   
 }
+
+const Main = () => (
+  <Switch>
+    <Route exact path='/' component={Home}></Route>
+    <Route exact path='/about' component={About}></Route>
+    <Route exact path='/projects' component={Projects}></Route>
+  </Switch>
+);
 
 
 export default App;
