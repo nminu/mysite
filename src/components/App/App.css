@@ -78,7 +78,7 @@ main {
   position: absolute;
   top: 1475px;
   height: 2400px;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 

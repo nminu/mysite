@@ -6,10 +6,6 @@ import aboutme from '../../resources/aboutbill2.png'
 import aboutme2 from '../../resources/aboutbill3.png'
 import myprojects from '../../resources/projbill2.png'
 import myprojects2 from '../../resources/projbill3.png'
-import test from '../../resources/2.jpg'
-import contactimg from '../../resources/workimg.png'
-import shape from '../../resources/transition.png'
-import wire from '../../resources/wire.png'
 import './App.css';
 import Transition from '../parallaxtransition/paratrans';
 
@@ -71,5 +67,6 @@ function App() {
   );
   
 }
+
 
 export default App;
