@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import '../Projects/projects.css'
 import { Link } from 'react-router-dom';
 import project from '../../resources/projectsimgT.png'

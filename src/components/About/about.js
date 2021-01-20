@@ -16,7 +16,7 @@ class About extends React.Component {
                     <div className='abouthead'>
                         <div className ='logocontainer'>
                             <div className = 'aboutlogo'>
-                                <img src={aboutme}></img>
+                                <img src={aboutme} className='aboutimage'></img>
                             </div>
                         </div>
                     </div>
