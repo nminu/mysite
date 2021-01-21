@@ -2,6 +2,9 @@ import React  from 'react';
 import '../Projects/projects.css'
 import { Link } from 'react-router-dom';
 import ProjParallaxComponent from '../Para/projpara.js';
+import sunthumb from '../../resources/sunthumb.png'
+import ttthumb from '../../resources/tooltensilsthumb.png'
+import placeholder from '../../resources/placeholderthumb.png'
 
 class Projects extends React.Component {
 
@@ -22,57 +25,83 @@ class Projects extends React.Component {
                     <div class="risingsun"></div>
                 </Link>
                     </div>
+        <div className='centered'>
 
-        <ul className='pwrapper'>
+        <div className='projwrapper'>
+            <header>
+                <h1>Web Developer Portfolio</h1>
+            </header>
+
+        <ul className='pbox'>
             <li className='pcard'>
+                <div className ='content'>
+                <img src = {sunthumb}></img>
                 <div className='poverlay'>
                     <div className='pinfo'>
                         <h1>
-                            Synth
+                            Retro Portfolio
                         </h1>
                         <p>
-                            This website is yeet
+                            This site is one of my first major projects. Built using React.js and featuring serveral custom graphics, this site serves as my main web development portfolio.
                         </p>
-                        <button>
-
-                        </button>
                     </div>
+                </div>
                 </div>
             </li>
 
             <li className='pcard'>
+                <div className ='content'>
+                <img src = {ttthumb}></img>
                 <div className='poverlay'>
                     <div className='pinfo'>
                         <h1>
-                            Tooltensils
+                            Tooltensils inc.
                         </h1>
                         <p>
-                            This website is yeet
+                            This is an ecommerce site that was built on Wordpress. I manage and maintain this site for a small business.
                         </p>
-                        <button>
-
-                        </button>
                     </div>
+                </div>
                 </div>
             </li>
 
             <li className='pcard'>
+                <div className ='content'>
+                <img src = {placeholder}></img>
                 <div className='poverlay'>
                     <div className='pinfo'>
                         <h1>
-                            Synth
+                            Upcomming
                         </h1>
                         <p>
-                            This website is yeet
+                            One of my few WIP projects. Check back soon for this project to be updated on this site.
                         </p>
-                        <button>
-
-                        </button>
                     </div>
                 </div>
+                </div>
             </li>
+
+            <li className='pcard'>
+                <div className ='content'>
+                <img src = {placeholder}></img>
+                <div className='poverlay'>
+                    <div className='pinfo'>
+                        <h1>
+                        Upcomming
+                        </h1>
+                        <p>
+                        One of my few WIP projects. Check back soon for this project to be updated on this site.
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </li>
+            
 
         </ul>
+        </div>
+
+        </div>
         
         </main>
         </body>

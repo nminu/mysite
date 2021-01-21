@@ -5,33 +5,61 @@
     background-size: fill;
     background-image: url(../../resources/backgroundno.png);
     background-color:  rgb(24, 20, 37);
-    height: 1700px;
+    height: 2100px;
     z-index: -1;
 }
 
+.centered {
+  display: block;
+  margin: 0;
+  margin-top: -200px;
+  text-align: center;
+  background-image: url(../../resources/dropbox.png);
+  background-position-x: center;
+  background-position-y: 100px;
+  background-size: 80vw 850px;
+  background-repeat: no-repeat;
+  height: 900px;
+}
 
-.pwrapper {
-    border: 1px solid red;
+.projwrapper {
+  margin: 0 auto;
+  max-width: 1010px;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(241, 86, 195);
+  box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+}
+
+.content {
+  position: relative;
+}
+
+.pbox {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    margin-top: 200px;
 }
 
 .pcard {
-    border: 1px solid yellow;
-    width: 30%;
-    height: 200px;
+    width: 40%;
+    padding: 20px;
     margin: auto;
     display: block;
     position: relative;
-    background-image: url(../../resources/sunthumb.png);
-    background-size: cover;
+    object-fit: cover;
 }
 
 .poverlay {
+    position: absolute;
     width: 100%;
-    height: 100%;
-    display: grid;
+    height: 97%;
+    left: 1px;
+    top: 1px;
     background: rgba(26, 23, 66, 0.9);
     color: #fef5df;
     opacity: 0;
@@ -39,6 +67,7 @@
 }
   
 .pinfo {
+    padding: 10px;
     opacity: 0;
     transform: translateY(40px);
     transition: all 0.7s;
@@ -103,3 +132,35 @@ button {
   .projectimage {
     width: 500px;
   }
+
+  @media (max-width: 1600px){
+    .projwrapper {
+       max-width: 880px;
+     }
+   }
+   @media (max-width: 1440px){
+     .projwrapper {
+        max-width: 800px;
+      }
+    }
+   
+    @media (max-width: 1300px){
+     .projwrapper {
+        max-width: 760px;
+      }
+    }
+    @media (max-width: 1100px){
+     .projwrapper {
+        max-width: 700px;
+      }
+    }
+    @media (max-width: 900px){
+     .projwrapper {
+        max-width: 600px;
+      }
+    }
+    @media (max-width: 800px){
+     .projwrapper {
+        max-width: 500px;
+      }
+    }
