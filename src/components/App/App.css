@@ -36,11 +36,6 @@
   scroll-behavior: smooth;
 }
 
-h1 {
-  font-family: 'neon';
-  color: steelblue;
-}
-
 .Appbody {
 background-position-y: -180px;
 background-position-x: center;
