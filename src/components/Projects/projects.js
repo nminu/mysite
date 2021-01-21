@@ -1,7 +1,7 @@
 import React  from 'react';
 import '../Projects/projects.css'
 import { Link } from 'react-router-dom';
-import project from '../../resources/projectsimgT.png'
+import ProjParallaxComponent from '../Para/projpara.js';
 
 class Projects extends React.Component {
 
@@ -11,12 +11,8 @@ class Projects extends React.Component {
             <head></head>
         <main>
             <div className='projhead'>
-                        <div className ='logocontainer'>
-                            <div className = 'projlogo'>
-                                <img src={project} className='projectimage'></img>
-                            </div>
-                        </div>
-                    </div>
+                <ProjParallaxComponent />
+            </div>
 
                     <div class="suncontainer">
                 <Link to="/">

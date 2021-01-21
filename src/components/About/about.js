@@ -1,7 +1,8 @@
 import React from 'react';
 import '../About/about.css'
 import { Link } from 'react-router-dom';
-import aboutme from '../../resources/aboutme.png'
+import AboutParallaxComponent from '../Para/aboutpara.js';
+
 
 class About extends React.Component {
 
@@ -9,16 +10,12 @@ class About extends React.Component {
         return (
             <body className='aboutbody'>
                 <head>
-
+                    
                 </head>
 
                 <main>
                     <div className='abouthead'>
-                        <div className ='logocontainer'>
-                            <div className = 'aboutlogo'>
-                                <img src={aboutme} className='aboutimage'></img>
-                            </div>
-                        </div>
+                        <AboutParallaxComponent />
                     </div>
 
 

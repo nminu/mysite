@@ -19,25 +19,30 @@
     background-repeat: no-repeat;
 }
 
-.logocontainer {
+.aboutlogocontainer {
     position: absolute;
     width: 100%;
     top: 160px;
+    margin-top: 180px;
 }
 
 .aboutlogo {
     margin: auto;
-    width: 470px;
+    width: 490px;
     font-family: 'neon';
     box-shadow: 0px 0px 80px 23px #18142a;
-    background-color:rgb(24,20,42, 0.7);
+    background-color:rgb(24,20,42, 0.6);
     border-radius: 100px / 50px;
   }
 
 .aboutimage {
-    width: 500px;
-
+    width: 520px;
 }
+
+.aboutparabox {
+    height: 500px;
+    overflow: hidden;
+  }
 
 
 .aboutmain {
