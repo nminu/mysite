@@ -187,13 +187,17 @@ button {
         max-width: 500px;
       }
       .pcard {
-        width: 80%;
+        width: 70%;
+        margin-left: 25px;
       }
       .centered {
         height: 1500px;
-        background-size: 80vw 1450px;
+        background-size: 80vw 1200px;
       }
       .projectbody {
         height: 2500px;
+      }
+      header {
+        font-size: 12px;
       }
     }
