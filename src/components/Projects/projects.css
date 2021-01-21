@@ -186,4 +186,14 @@ button {
      .projwrapper {
         max-width: 500px;
       }
+      .pcard {
+        width: 80%;
+      }
+      .centered {
+        height: 1500px;
+        background-size: 80vw 1450px;
+      }
+      .projectbody {
+        height: 2500px;
+      }
     }
