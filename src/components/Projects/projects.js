@@ -5,6 +5,7 @@ import ProjParallaxComponent from '../Para/projpara.js';
 import sunthumb from '../../resources/sunthumb.png'
 import ttthumb from '../../resources/tooltensilsthumb.png'
 import placeholder from '../../resources/placeholderthumb.png'
+import topbar from '../../resources/topbar.png'
 
 class Projects extends React.Component {
 
@@ -30,6 +31,7 @@ class Projects extends React.Component {
         <div className='projwrapper'>
             <header>
                 <h1>Web Developer Portfolio</h1>
+                <h2>This page features some of my latest web and software development projects. I have a few WIP projects so this page should soon be updated.</h2>
             </header>
 
         <ul className='pbox'>
@@ -101,6 +103,14 @@ class Projects extends React.Component {
         </ul>
         </div>
 
+        </div>
+
+        <div className='bottomtext'>
+            <h2>Let's chat</h2>
+            <p>Want to get in touch or talk about a project?<br />
+            Email me at <b>website@email.com</b> <br />
+            Or by using the form <b>here</b>.</p>
+            
         </div>
         
         </main>
