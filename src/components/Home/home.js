@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, NavLink, Switch, Route, Link } from 'react-router-dom';
 import FaceBox from '../Facebox/facebox';
 import Para from '../Para/para.js';
+import Contact from '../Contact/contact.js'
 import aboutme from '../../resources/aboutbill2.png';
 import aboutme2 from '../../resources/aboutbill3.png';
 import myprojects from '../../resources/projbill2.png';
@@ -47,11 +48,13 @@ render () {
           </div>
     
           <Transition />
-    
+
           </main>
-    
+          <Contact />
           <footer>
+
             <div className='footer'>
+
     
               <p className='footertext gradient'>Thank you for visiting my site!</p>
               <p className='footertext2 gradient'>Please feel free to get in touch.</p>
