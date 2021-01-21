@@ -18,14 +18,6 @@ class Projects extends React.Component {
                 <ProjParallaxComponent />
             </div>
 
-                    <div class="suncontainer">
-                <Link to="/">
-                    <div class="sunbuttontext">
-                    <span>Home</span>
-                    </div>
-                    <div class="risingsun"></div>
-                </Link>
-                    </div>
         <div className='centered'>
 
         <div className='projwrapper'>
@@ -101,9 +93,19 @@ class Projects extends React.Component {
             
 
         </ul>
+
         </div>
 
         </div>
+        
+        <div class="suncontainer">
+                <Link to="/">
+                    <div class="sunbuttontext">
+                    <span>Home</span>
+                    </div>
+                    <div class="risingsun"></div>
+                </Link>
+                    </div>
 
         <div className='bottomtext'>
             <h2>Let's chat</h2>
